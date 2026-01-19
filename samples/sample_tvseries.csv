@@ -1,0 +1,887 @@
+# Command: python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2010 --end-year 2012 --title-type tvSeries --format csv --output samples/sample_tvseries.csv
+
+tconst,primaryTitle,startYear,averageRating,numVotes,genres,runtimeMinutes,titleType
+tt2185037,Running Man,2010,9.1,3994,"Comedy,Game-Show,Reality-TV",80,tvSeries
+tt1708523,The Island,2010,9.1,3309,Drama,45,tvSeries
+tt6119392,Vsauce,2010,9.1,928,Documentary,,tvSeries
+tt1475582,Sherlock,2010,9.0,1066578,"Crime,Drama,Mystery",90,tvSeries
+tt7248250,VideoGameDunkey,2010,9.0,1660,Comedy,,tvSeries
+tt1832668,How the Universe Works,2010,8.9,7621,Documentary,60,tvSeries
+tt2735544,Aerial America,2010,8.9,884,Documentary,44,tvSeries
+tt1795096,Behzat Ç: An Ankara Detective Story,2010,8.8,35512,"Crime,Drama,Mystery",90,tvSeries
+tt2404721,Dastaan,2010,8.8,1313,"Drama,History,Romance",,tvSeries
+tt1821820,Edwardian Farm,2010,8.8,641,"Adventure,Documentary",59,tvSeries
+tt1606375,Downton Abbey,2010,8.7,241137,"Drama,Romance",60,tvSeries
+tt3198590,The Slow Mo Guys,2010,8.7,1007,Documentary,,tvSeries
+tt0979432,Boardwalk Empire,2010,8.6,214602,"Crime,Drama",60,tvSeries
+tt1305826,Adventure Time,2010,8.6,127961,"Action,Adventure,Animation",23,tvSeries
+tt1489428,Justified,2010,8.6,127898,"Action,Crime,Drama",45,tvSeries
+tt1710308,Regular Show,2010,8.6,69941,"Action,Adventure,Animation",23,tvSeries
+tt1641384,Young Justice,2010,8.6,49917,"Action,Adventure,Animation",23,tvSeries
+tt1513168,Through the Wormhole,2010,8.6,19282,Documentary,60,tvSeries
+tt1877368,The Great British Baking Show,2010,8.6,14842,"Game-Show,Reality-TV",60,tvSeries
+tt1657563,Check It Out! with Dr. Steve Brule,2010,8.6,7195,"Comedy,Talk-Show",11,tvSeries
+tt5897920,Your Movie Sucks,2010,8.6,4233,"Comedy,Talk-Show",,tvSeries
+tt1948541,Broad City,2010,8.6,3709,"Comedy,Short",,tvSeries
+tt2150568,Immersion,2010,8.6,1077,Comedy,,tvSeries
+tt2033616,Fake or Fortune,2010,8.6,768,"Documentary,Mystery",63,tvSeries
+tt1492966,Louie,2010,8.5,84714,"Comedy,Drama",22,tvSeries
+tt1526318,Borgen,2010,8.5,31921,Drama,58,tvSeries
+tt1587000,Rake,2010,8.5,9252,"Comedy,Drama",60,tvSeries
+tt1711386,Dag,2010,8.5,5523,"Comedy,Drama",23,tvSeries
+tt2290891,Al Kabeer,2010,8.5,4694,"Comedy,Romance",35,tvSeries
+tt2362231,JonTron,2010,8.5,3553,Comedy,,tvSeries
+tt1739744,Powder,2010,8.5,844,"Crime,Thriller",,tvSeries
+tt1739752,Rishta.com,2010,8.5,543,Drama,45,tvSeries
+tt1721556,Elvira's Movie Macabre,2010,8.5,524,Horror,120,tvSeries
+tt1442449,Spartacus,2010,8.4,290113,"Action,Adventure,Biography",60,tvSeries
+tt1474684,Luther,2010,8.4,161302,"Crime,Drama,Mystery",60,tvSeries
+tt1553644,The Ricky Gervais Show,2010,8.4,17531,"Animation,Comedy,Talk-Show",30,tvSeries
+tt1625724,Love/Hate,2010,8.4,9450,"Crime,Drama",51,tvSeries
+tt5747554,Battle for Dream Island,2010,8.4,1516,"Animation,Comedy,Family",,tvSeries
+tt1151910,The Buried Life,2010,8.4,640,"Documentary,Reality-TV",22,tvSeries
+tt1546139,The Green Room with Paul Provenza,2010,8.4,565,Talk-Show,30,tvSeries
+tt1344204,Blue Mountain State,2010,8.3,62613,"Comedy,Sport",22,tvSeries
+tt1416765,Parenthood,2010,8.3,42743,"Comedy,Drama",60,tvSeries
+tt1702042,An Idiot Abroad,2010,8.3,35380,"Adventure,Comedy,Documentary",43,tvSeries
+tt1626038,The Avengers: Earth's Mightiest Heroes,2010,8.3,17637,"Action,Adventure,Animation",30,tvSeries
+tt1279972,Treme,2010,8.3,16704,"Drama,Music",60,tvSeries
+tt1493239,Terriers,2010,8.3,11642,"Comedy,Crime,Drama",45,tvSeries
+tt1821229,The Being Frank Show,2010,8.3,6742,Talk-Show,,tvSeries
+tt1530541,Offspring,2010,8.3,5923,"Comedy,Drama",60,tvSeries
+tt1923623,Mid Morning Matters with Alan Partridge,2010,8.3,3458,Comedy,23,tvSeries
+tt1514753,Three Kingdoms,2010,8.3,1521,"Drama,History,War",45,tvSeries
+tt1719837,Hardy Bucks,2010,8.3,1122,Comedy,30,tvSeries
+tt1632065,Mother,2010,8.3,578,Drama,54,tvSeries
+tt1637574,Conan,2010,8.2,25482,"Comedy,Music,Talk-Show",42,tvSeries
+tt1660055,Scooby-Doo! Mystery Incorporated,2010,8.2,21366,"Adventure,Animation,Comedy",23,tvSeries
+tt1674553,Penoza,2010,8.2,4287,"Crime,Drama,Thriller",45,tvSeries
+tt1610860,"Rainbow: The Seven from Compound Two, Cell Six",2010,8.2,3588,"Animation,Crime,Drama",30,tvSeries
+tt1525780,The Weissensee Saga,2010,8.2,2502,Drama,50,tvSeries
+tt1678749,Mongrels,2010,8.2,1564,Comedy,30,tvSeries
+tt1827070,Drew Carey's Improv-A-Ganza,2010,8.2,1272,"Comedy,Game-Show",30,tvSeries
+tt1764129,In Treatment,2010,8.2,704,Drama,,tvSeries
+tt1666727,The Neistat Brothers,2010,8.2,516,"Biography,Comedy",,tvSeries
+tt1520211,The Walking Dead,2010,8.1,1167327,"Drama,Horror,Thriller",45,tvSeries
+tt1492179,Strike Back,2010,8.1,35000,"Action,Drama,Thriller",45,tvSeries
+tt1515193,The Big C,2010,8.1,16815,"Comedy,Drama",30,tvSeries
+tt1618952,Gönülçelen,2010,8.1,10904,"Drama,Music",90,tvSeries
+tt1659175,Transformers Prime,2010,8.1,10006,"Action,Adventure,Animation",30,tvSeries
+tt1593584,Solsidan,2010,8.1,8621,"Comedy,Drama",22,tvSeries
+tt1558128,Todd and the Book of Pure Evil,2010,8.1,4392,"Comedy,Horror,Sci-Fi",,tvSeries
+tt2039625,Epic Rap Battles of History,2010,8.1,3748,"Comedy,History,Music",5,tvSeries
+tt1709198,Sym-Bionic Titan,2010,8.1,3622,"Action,Adventure,Animation",,tvSeries
+tt1943898,Adaalat,2010,8.1,1795,"Comedy,Crime,Drama",42,tvSeries
+tt2004927,Sssshh... Phir Koi Hai (Tritiya),2010,8.1,897,Horror,,tvSeries
+tt1615919,Raising Hope,2010,8.0,42794,"Comedy,Family",22,tvSeries
+tt1841321,Secret Garden,2010,8.0,8459,"Comedy,Drama,Fantasy",60,tvSeries
+tt1698441,The Trip,2010,8.0,8311,Comedy,172,tvSeries
+tt1567254,The Good Guys,2010,8.0,7750,"Action,Comedy",60,tvSeries
+tt1551948,Dance Academy,2010,8.0,5366,"Drama,Family,Music",24,tvSeries
+tt1738419,Bakuman.,2010,8.0,3015,"Animation,Comedy,Drama",24,tvSeries
+tt1666209,Dong Yi,2010,8.0,2514,"Adventure,Drama,History",60,tvSeries
+tt2076566,Mysteries at the Museum,2010,8.0,1535,"Adventure,Biography,Crime",60,tvSeries
+tt1365047,Who Do You Think You Are?,2010,8.0,1528,"Biography,Documentary,History",60,tvSeries
+tt1563697,Food Revolution,2010,8.0,847,Reality-TV,60,tvSeries
+tt1825371,Kamen Rider OOO,2010,8.0,740,"Action,Adventure,Comedy",24,tvSeries
+tt1654842,True Blood: Webisodes,2010,8.0,685,"Drama,Fantasy,Horror",5,tvSeries
+tt1299365,How to Make It in America,2010,7.9,16649,"Comedy,Drama",30,tvSeries
+tt1621748,Ugly Americans,2010,7.9,11563,"Animation,Comedy,Fantasy",30,tvSeries
+tt1389371,Rubicon,2010,7.9,11477,"Crime,Drama,Mystery",45,tvSeries
+tt1634208,Maid Sama!,2010,7.9,10349,"Animation,Comedy,Romance",24,tvSeries
+tt1769411,Accused,2010,7.9,3532,"Crime,Drama,Mystery",60,tvSeries
+tt1731601,The Indian Doctor,2010,7.9,1782,"Drama,History",,tvSeries
+tt1524415,Spirited,2010,7.9,1709,"Comedy,Drama,Fantasy",60,tvSeries
+tt1528852,Pure Pwnage,2010,7.9,925,Comedy,,tvSeries
+tt2107314,Rehab Addict,2010,7.9,876,Reality-TV,,tvSeries
+tt1870946,Oddities,2010,7.9,774,Reality-TV,22,tvSeries
+tt1711419,Surviving the Cut,2010,7.9,588,Reality-TV,,tvSeries
+tt1821771,"Baker King, Kim Tak Goo",2010,7.9,557,"Drama,Family,Romance",90,tvSeries
+tt1751105,My Little Pony: Friendship Is Magic,2010,7.8,25088,"Adventure,Animation,Comedy",22,tvSeries
+tt1622696,Ben 10: Ultimate Alien,2010,7.8,14137,"Action,Adventure,Animation",22,tvSeries
+tt1584000,Durarara!!,2010,7.8,8539,"Animation,Comedy,Crime",24,tvSeries
+tt1493923,Him & Her,2010,7.8,5091,Comedy,28,tvSeries
+tt1588221,Rev.,2010,7.8,3129,Comedy,30,tvSeries
+tt1765510,R.L. Stine's the Haunting Hour,2010,7.8,3116,"Action,Adventure,Comedy",23,tvSeries
+tt1706532,Grandma's House,2010,7.8,1250,Comedy,30,tvSeries
+tt1664065,Asfur,2010,7.8,1110,"Comedy,Crime,Drama",30,tvSeries
+tt1750269,James May's Man Lab,2010,7.8,1070,Documentary,60,tvSeries
+tt1715332,JourneyQuest,2010,7.8,766,"Action,Adventure,Comedy",,tvSeries
+tt1761768,Ouk an lavois para tou mi ehontos,2010,7.8,752,"Animation,Comedy",,tvSeries
+tt1509717,Walk the Talk,2010,7.8,535,Drama,,tvSeries
+tt1592154,Nikita,2010,7.7,55726,"Action,Crime,Drama",60,tvSeries
+tt1595859,Blue Bloods,2010,7.7,53024,"Crime,Drama,Mystery",43,tvSeries
+tt1551632,Rizzoli & Isles,2010,7.7,40479,"Crime,Drama,Mystery",45,tvSeries
+tt1442065,Rookie Blue,2010,7.7,19659,"Action,Crime,Drama",42,tvSeries
+tt1439741,Human Target,2010,7.7,19300,"Action,Adventure,Crime",60,tvSeries
+tt1652216,DCI Banks,2010,7.7,9999,"Crime,Drama,Mystery",45,tvSeries
+tt1650527,Glass Home,2010,7.7,2582,Drama,60,tvSeries
+tt2745682,Sungkyunkwan Scandal,2010,7.7,2067,"Comedy,Drama,Romance",70,tvSeries
+tt1684734,Glory Daze,2010,7.7,1927,Comedy,,tvSeries
+tt1705090,Teresa,2010,7.7,1624,"Drama,Romance",60,tvSeries
+tt1688779,"Drugs, Inc.",2010,7.7,1485,"Crime,Documentary",44,tvSeries
+tt1647109,Facejacker,2010,7.7,1228,Comedy,24,tvSeries
+tt2151208,Kanit,2010,7.7,1219,"Crime,Drama",75,tvSeries
+tt1746043,Princess Jellyfish,2010,7.7,1206,"Animation,Comedy,Romance",22,tvSeries
+tt1690364,Pete Versus Life,2010,7.7,964,"Comedy,Drama",30,tvSeries
+tt1901983,Dick Figures,2010,7.7,713,"Animation,Comedy",2,tvSeries
+tt1405466,This Is Not My Life,2010,7.7,638,"Sci-Fi,Thriller",44,tvSeries
+tt1612716,Rosario Tijeras,2010,7.7,597,Drama,,tvSeries
+tt1429449,Lost Girl,2010,7.6,34359,"Action,Drama,Fantasy",44,tvSeries
+tt1639109,Angel Beats!,2010,7.6,17561,"Action,Animation,Comedy",25,tvSeries
+tt1593756,Outsourced,2010,7.6,12987,Comedy,30,tvSeries
+tt1636691,Generator Rex,2010,7.6,9503,"Action,Adventure,Animation",24,tvSeries
+tt1297754,Republic of Doyle,2010,7.6,5027,"Comedy,Crime,Drama",60,tvSeries
+tt2016670,Shiki,2010,7.6,4510,"Animation,Drama,Horror",24,tvSeries
+tt2255085,My Girlfriend Is a Gumiho,2010,7.6,4048,"Comedy,Fantasy,Romance",60,tvSeries
+tt2303367,Dirk Gently,2010,7.6,3759,"Comedy,Crime,Mystery",58,tvSeries
+tt1578258,Detroit 1-8-7,2010,7.6,3576,"Action,Crime,Drama",42,tvSeries
+tt1480669,Tower Prep,2010,7.6,1873,"Drama,Fantasy,Mystery",60,tvSeries
+tt2184186,A League of Their Own,2010,7.6,1771,"Comedy,Game-Show,Sport",45,tvSeries
+tt1569972,Top Shot,2010,7.6,1607,"Reality-TV,Sport",,tvSeries
+tt1519931,Haven,2010,7.5,43500,"Crime,Drama,Fantasy",60,tvSeries
+tt1442109,Life Unexpected,2010,7.5,15902,Drama,60,tvSeries
+tt1815138,Mokhtarnameh,2010,7.5,11041,"Biography,Drama,History",,tvSeries
+tt1749004,Come Fly with Me,2010,7.5,10694,Comedy,29,tvSeries
+tt1785914,Bitter Coffee,2010,7.5,10172,"Comedy,History",,tvSeries
+tt1533010,Lip Service,2010,7.5,4733,Drama,60,tvSeries
+tt1409008,Memphis Beat,2010,7.5,2685,"Comedy,Crime,Drama",43,tvSeries
+tt1601141,WWE NXT,2010,7.5,2545,"Action,Reality-TV,Sport",120,tvSeries
+tt1710177,The Octonauts,2010,7.5,1951,"Adventure,Animation,Comedy",11,tvSeries
+tt2181460,Pasta,2010,7.5,1387,"Comedy,Drama,Romance",,tvSeries
+tt6928178,Monster High,2010,7.5,1310,"Animation,Comedy,Family",2,tvSeries
+tt1736398,Feuten,2010,7.5,1152,"Drama,Romance",25,tvSeries
+tt1546360,Unusual Suspects,2010,7.5,1040,"Crime,Documentary",44,tvSeries
+tt1420152,I (Almost) Got Away with It,2010,7.5,819,"Crime,Documentary,Mystery",,tvSeries
+tt1790033,Bite Me,2010,7.5,641,"Comedy,Horror",,tvSeries
+tt1663613,Work of Art: The Next Great Artist,2010,7.5,591,Reality-TV,,tvSeries
+tt1600194,Hawaii Five-0,2010,7.4,81968,"Action,Crime,Drama",42,tvSeries
+tt1583607,Hot in Cleveland,2010,7.4,17002,Comedy,30,tvSeries
+tt1552112,The Glades,2010,7.4,15713,"Action,Crime,Drama",60,tvSeries
+tt1782352,Upstairs Downstairs,2010,7.4,7245,Drama,60,tvSeries
+tt1451387,The Hard Times of RJ Berger,2010,7.4,5970,Comedy,30,tvSeries
+tt1592254,The Defenders,2010,7.4,4089,"Comedy,Crime,Drama",60,tvSeries
+tt1673441,Dual Survival,2010,7.4,3500,"Adventure,Game-Show,Reality-TV",60,tvSeries
+tt6954652,Jack Taylor,2010,7.4,2843,"Action,Crime,Drama",93,tvSeries
+tt1726576,Whites,2010,7.4,2775,Comedy,,tvSeries
+tt2207861,Ayza Atgawez,2010,7.4,1743,"Comedy,Romance",45,tvSeries
+tt4031218,Death Battle,2010,7.4,683,"Action,Animation,Comedy",,tvSeries
+tt1710926,What If?,2010,7.4,596,Drama,23,tvSeries
+tt1578873,Pretty Little Liars,2010,7.3,185959,"Drama,Mystery,Romance",44,tvSeries
+tt1495708,Covert Affairs,2010,7.3,33140,"Action,Crime,Drama",60,tvSeries
+tt1800864,Gold Rush,2010,7.3,5912,Reality-TV,45,tvSeries
+tt1666217,Personal Taste,2010,7.3,5447,"Comedy,Drama,Romance",60,tvSeries
+tt1727444,Panty & Stocking with Garterbelt,2010,7.3,3675,"Action,Animation,Comedy",23,tvSeries
+tt1685407,Black Butler II,2010,7.3,2892,"Action,Animation,Comedy",,tvSeries
+tt1494829,Unnatural History,2010,7.3,1515,"Action,Adventure,Drama",60,tvSeries
+tt1540108,The Last Cop,2010,7.3,1071,"Crime,Drama",45,tvSeries
+tt2716982,Nura: Rise of the Yokai Clan,2010,7.3,917,"Action,Animation,Comedy",,tvSeries
+tt1630269,Soy tu dueña,2010,7.3,810,"Drama,Romance",45,tvSeries
+tt1743275,Superhumans,2010,7.3,788,Documentary,60,tvSeries
+tt1685484,Working!!,2010,7.3,767,"Animation,Comedy,Drama",24,tvSeries
+tt6963396,Dreamworks How to Train Your Dragon Legends,2010,7.3,746,"Action,Adventure,Animation",30,tvSeries
+tt1739276,IRT: Deadliest Roads,2010,7.3,645,Reality-TV,,tvSeries
+tt1738090,The Squid Girl: The Invader Comes from the Bottom of the Sea!,2010,7.3,572,"Animation,Comedy,Drama",23,tvSeries
+tt7762818,Maryada: Lekin Kab Tak?,2010,7.3,534,Drama,24,tvSeries
+tt1712150,Keizoku 2: SPEC - Keishichou kouanbu kouan daigoka mishou jiken tokubetsu taisakugakari jikenbo,2010,7.3,519,"Crime,Drama,Fantasy",,tvSeries
+tt1694423,MasterChef USA,2010,7.2,10586,"Game-Show,Reality-TV",42,tvSeries
+tt1688612,The Bay,2010,7.2,4650,"Adventure,Crime,Drama",,tvSeries
+tt1497609,Vexed,2010,7.2,4037,"Comedy,Crime,Mystery",60,tvSeries
+tt2367813,Pyaar Kii Ye Ek Kahaani,2010,7.2,1409,"Fantasy,Romance",24,tvSeries
+tt1899022,The World God Only Knows,2010,7.2,1355,"Animation,Comedy,Romance",24,tvSeries
+tt1591511,Huge,2010,7.2,1232,"Comedy,Drama,Family",44,tvSeries
+tt1789621,Wallace and Gromit's World of Invention,2010,7.2,1210,"Animation,Comedy,Documentary",30,tvSeries
+tt1658978,Hakuouki,2010,7.2,846,"Action,Animation,Drama",25,tvSeries
+tt1415889,Good Luck Charlie,2010,7.1,26558,"Comedy,Drama,Family",22,tvSeries
+tt1685401,Highschool of the Dead,2010,7.1,17544,"Action,Animation,Drama",24,tvSeries
+tt1599357,The Gates,2010,7.1,8614,"Crime,Drama,Fantasy",60,tvSeries
+tt1784141,Time Goes By,2010,7.1,6560,"Drama,History",120,tvSeries
+tt2096097,Mischievous Kiss,2010,7.1,4782,"Comedy,Romance",66,tvSeries
+tt3755578,PewDiePie,2010,7.1,3829,"Comedy,Talk-Show",,tvSeries
+tt1553620,Rock & Chips,2010,7.1,1658,"Comedy,Drama",89,tvSeries
+tt1655610,Baka and Test,2010,7.1,1598,"Animation,Comedy,Fantasy",25,tvSeries
+tt1705038,G.I. Joe: Renegades,2010,7.1,1271,"Action,Adventure,Animation",,tvSeries
+tt1535715,Mary Shelley's Frankenhole,2010,7.1,1058,"Animation,Comedy,Horror",15,tvSeries
+tt1626459,My Kitchen Rules,2010,7.1,1046,Reality-TV,60,tvSeries
+tt1535096,Tracy Beaker Returns,2010,7.1,837,"Drama,Family",28,tvSeries
+tt1694038,Seitokai yakuindomo,2010,7.1,820,"Animation,Comedy,Drama",307,tvSeries
+tt2055490,This Is Jinsy,2010,7.1,797,"Comedy,Fantasy,Musical",30,tvSeries
+tt1639471,Arakawa Under the Bridge,2010,7.1,791,"Animation,Comedy,Fantasy",24,tvSeries
+tt1577760,The History of Our Family,2010,7.1,652,Drama,,tvSeries
+tt1604099,Victorious,2010,7.0,33006,"Comedy,Drama,Family",30,tvSeries
+tt1582459,The Event,2010,7.0,26953,"Crime,Drama,Mystery",43,tvSeries
+tt1597420,Melissa & Joey,2010,7.0,20333,"Comedy,Romance",30,tvSeries
+tt1596786,American Pickers,2010,7.0,9020,"Documentary,Reality-TV",60,tvSeries
+tt1647423,Interny,2010,7.0,3972,Comedy,25,tvSeries
+tt1379722,Happy Town,2010,7.0,3491,"Drama,Fantasy,Mystery",,tvSeries
+tt1361839,Sons of Tucson,2010,7.0,2288,Comedy,30,tvSeries
+tt1558182,Call Me Fitz,2010,7.0,1798,Comedy,,tvSeries
+tt1406662,Miami Medical,2010,7.0,1345,"Action,Drama,Mystery",60,tvSeries
+tt1772452,Bellicher,2010,7.0,506,Thriller,50,tvSeries
+tt5659248,The Daltons,2010,7.0,503,"Adventure,Animation,Comedy",7,tvSeries
+tt1591493,No Ordinary Family,2010,6.9,17462,"Action,Comedy,Drama",60,tvSeries
+tt1582458,Chase,2010,6.9,7515,"Action,Crime,Drama",60,tvSeries
+tt1846197,The Sandhamn Murders,2010,6.9,4113,"Crime,Drama,Mystery",45,tvSeries
+tt1591490,Lone Star,2010,6.9,931,Drama,60,tvSeries
+tt1690400,The Legend of the Legendary Heroes,2010,6.9,896,"Action,Adventure,Animation",,tvSeries
+tt1743034,The LXD: The Legion of Extraordinary Dancers,2010,6.9,820,"Action,Adventure,Music",85,tvSeries
+tt1685397,Amagami SS,2010,6.9,643,"Animation,Drama,Romance",24,tvSeries
+tt1620638,Worst-Case Scenario,2010,6.9,563,"Adventure,Reality-TV",,tvSeries
+tt1685410,Okami-san and Her Seven Companions,2010,6.9,545,"Animation,Comedy,Fantasy",24,tvSeries
+tt1569333,The Wallflower,2010,6.9,506,"Comedy,Drama,Romance",45,tvSeries
+tt1333050,Persons Unknown,2010,6.8,8843,"Drama,Mystery,Thriller",43,tvSeries
+tt1598876,Better with You,2010,6.8,3448,Comedy,30,tvSeries
+tt1615926,Running Wilde,2010,6.8,3332,Comedy,30,tvSeries
+tt1616209,Angelo Rules,2010,6.8,2272,"Animation,Comedy,Family",11,tvSeries
+tt1411254,18 to Life,2010,6.8,1352,Comedy,23,tvSeries
+tt2046005,Zig & Sharko,2010,6.8,1351,"Adventure,Animation,Comedy",7,tvSeries
+tt2458514,Mary Stayed Out All Night,2010,6.8,916,"Comedy,Drama,Music",65,tvSeries
+tt1441219,The Deep End,2010,6.8,814,Drama,60,tvSeries
+tt1468779,Identity,2010,6.8,740,"Crime,Drama,Mystery",60,tvSeries
+tt1705096,Who the (Bleep) Did I Marry,2010,6.8,693,"Biography,Crime,Documentary",,tvSeries
+tt12245450,Zindgi Ka Har Rang ... Gulaal,2010,6.8,538,Drama,20,tvSeries
+tt1596356,Hellcats,2010,6.7,11130,"Comedy,Drama",60,tvSeries
+tt1600757,Kick Buttowski: Suburban Daredevil,2010,6.7,7534,"Action,Adventure,Animation",23,tvSeries
+tt1657081,Law & Order: LA,2010,6.7,2947,"Crime,Drama,Mystery",60,tvSeries
+tt1695353,"Man, Woman, Wild",2010,6.7,1195,"Adventure,Reality-TV",,tvSeries
+tt1594367,My Life as Liz,2010,6.7,989,Comedy,21,tvSeries
+tt1058776,Pink Panther and Pals,2010,6.7,980,"Animation,Comedy,Family",25,tvSeries
+tt1711420,The Great Food Truck Race,2010,6.7,974,"Game-Show,Reality-TV",60,tvSeries
+tt1598874,Dudesons in America,2010,6.7,840,Reality-TV,,tvSeries
+tt1743493,Motto to Love Ru,2010,6.7,822,"Action,Animation,Comedy",24,tvSeries
+tt1660286,Weird or What?,2010,6.7,556,Documentary,,tvSeries
+tt1798787,Frankie Boyle's Tramadol Nights,2010,6.7,526,Comedy,,tvSeries
+tt1492627,True Crime with Aphrodite Jones,2010,6.7,502,"Crime,Documentary",44,tvSeries
+tt1697793,Outcasts,2010,6.6,5910,"Drama,Sci-Fi",50,tvSeries
+tt1756927,American Restoration,2010,6.6,3203,Reality-TV,,tvSeries
+tt1595856,Perfect Couples,2010,6.6,2620,"Comedy,Romance",30,tvSeries
+tt1534370,The Protected,2010,6.6,1010,"Comedy,Fantasy",90,tvSeries
+tt1748166,Pioneer One,2010,6.6,900,"Drama,Sci-Fi",,tvSeries
+tt1610515,The Whole Truth,2010,6.6,748,"Crime,Drama",60,tvSeries
+tt1790954,Den fördömde,2010,6.6,743,"Crime,Drama,Thriller",90,tvSeries
+tt1752508,The Last Word with Lawrence O'Donnell,2010,6.6,726,"News,Talk-Show",60,tvSeries
+tt1479978,Wingin' It,2010,6.6,593,"Comedy,Family,Fantasy",22,tvSeries
+tt1596029,The Clone,2010,6.6,536,Drama,43,tvSeries
+tt1608180,Mike & Molly,2010,6.5,29455,"Comedy,Romance",30,tvSeries
+tt1636694,Demon King Daimao,2010,6.5,3097,"Action,Animation,Comedy",24,tvSeries
+tt1699440,The Cat in the Hat Knows a Lot About That!,2010,6.5,863,"Adventure,Animation,Comedy",26,tvSeries
+tt1538296,Hoarding: Buried Alive,2010,6.5,827,Documentary,,tvSeries
+tt1720607,Top Chef: Just Desserts,2010,6.5,754,Reality-TV,,tvSeries
+tt6950338,DreamWorks Shrek's Swamp Stories,2010,6.5,653,"Animation,Comedy,Family",30,tvSeries
+tt1521186,Maison close,2010,6.5,627,Drama,52,tvSeries
+tt1876868,Geet,2010,6.5,517,Romance,22,tvSeries
+tt8088236,Geografens testamente,2011,9.6,1057,"Adventure,History",28,tvSeries
+tt7747698,Viva La Dirt League,2011,9.4,789,Comedy,,tvSeries
+tt6439480,Jerma985,2011,9.4,686,"Comedy,Crime,Horror",,tvSeries
+tt13045860,Hiç Komik Degil,2011,9.4,566,Comedy,,tvSeries
+tt2348531,Half in the Bag,2011,9.3,5708,"Comedy,Talk-Show",40,tvSeries
+tt0944947,Game of Thrones,2011,9.2,2497261,"Action,Adventure,Drama",60,tvSeries
+tt2147999,Devon Ke Dev... Mahadev,2011,9.2,5439,"Action,Drama,Fantasy",22,tvSeries
+tt2955622,Chandragupta Maurya,2011,9.2,1019,"Biography,History",48,tvSeries
+tt4202274,The Filthy Frank Show,2011,9.1,33798,"Comedy,Short",,tvSeries
+tt2098220,Hunter x Hunter,2011,9.0,177297,"Action,Adventure,Animation",24,tvSeries
+tt1831164,Leyla and Mecnun,2011,9.0,100761,"Adventure,Comedy,Drama",90,tvSeries
+tt1909015,Undercover,2011,8.9,28213,"Action,Crime,Drama",60,tvSeries
+tt2403201,Humsafar,2011,8.9,5126,"Drama,Romance",35,tvSeries
+tt1925393,Último a Sair,2011,8.9,1941,Comedy,1210,tvSeries
+tt3001096,The Show,2011,8.9,1004,"Comedy,Talk-Show",,tvSeries
+tt1910272,Steins;Gate,2011,8.8,87341,"Animation,Comedy,Drama",24,tvSeries
+tt6090814,Hamilton's Pharmacopeia,2011,8.8,1568,Documentary,60,tvSeries
+tt2085059,Black Mirror,2011,8.7,715573,"Crime,Drama,Mystery",60,tvSeries
+tt1934673,Homicide Hunter,2011,8.7,4005,"Crime,Documentary",43,tvSeries
+tt2396758,A Football Life,2011,8.7,775,"Biography,Documentary,Sport",,tvSeries
+tt1733785,The Bridge,2011,8.6,82670,"Crime,Mystery,Thriller",60,tvSeries
+tt1840973,19-2,2011,8.6,1844,"Crime,Drama",60,tvSeries
+tt1819821,Basta,2011,8.6,1062,"Comedy,News",,tvSeries
+tt2197519,Too Cute!,2011,8.6,752,Documentary,,tvSeries
+tt1586680,Shameless,2011,8.5,322303,"Comedy,Drama",60,tvSeries
+tt1839578,Person of Interest,2011,8.5,201455,"Action,Crime,Drama",43,tvSeries
+tt2100976,Impractical Jokers,2011,8.5,50388,"Comedy,Reality-TV",30,tvSeries
+tt2147995,Der Tatortreiniger,2011,8.5,8606,"Comedy,Crime",26,tvSeries
+tt2344689,Kolah Ghermezi 90,2011,8.5,5727,"Comedy,Family",,tvSeries
+tt1978940,Metal Evolution,2011,8.5,2785,"Documentary,Music",,tvSeries
+tt2374683,Empresses in the Palace,2011,8.5,2635,"Drama,History,Romance",45,tvSeries
+tt2136396,The Incredible Dr. Pol,2011,8.5,2385,"Documentary,Reality-TV",44,tvSeries
+tt1949650,Best of Luck Nikki,2011,8.5,2075,"Comedy,Family",22,tvSeries
+tt4588194,Born from the Flank: Wilada Min Alkhasira,2011,8.5,755,"Action,Crime,Drama",,tvSeries
+tt1806294,Kaizoku Sentai Gokaiger,2011,8.5,680,"Action,Adventure,Comedy",25,tvSeries
+tt1632701,Suits,2011,8.4,526551,"Comedy,Drama",45,tvSeries
+tt1942683,The Amazing World of Gumball,2011,8.4,51240,"Adventure,Animation,Comedy",11,tvSeries
+tt1830379,Top Boy,2011,8.4,46559,"Crime,Drama,Thriller",60,tvSeries
+tt2044128,Bref.,2011,8.4,4530,Comedy,2,tvSeries
+tt2289131,Off the Air,2011,8.4,1114,"Animation,Comedy,Horror",11,tvSeries
+tt1885032,Sports Show with Norm Macdonald,2011,8.4,771,"Comedy,News,Sport",30,tvSeries
+tt3822326,Inanimate Insanity,2011,8.4,688,"Adventure,Animation,Comedy",20,tvSeries
+tt1796960,Homeland,2011,8.3,372978,"Crime,Drama,Mystery",60,tvSeries
+tt1637727,The Killing,2011,8.3,131440,"Crime,Drama,Mystery",45,tvSeries
+tt1699748,Hell on Wheels,2011,8.3,58869,"Drama,Western",42,tvSeries
+tt2006421,Gran Hotel,2011,8.3,11826,"Crime,Drama,History",,tvSeries
+tt1807165,Danger 5,2011,8.3,5312,"Action,Adventure,Comedy",24,tvSeries
+tt2098308,Nichijou: My Ordinary Life,2011,8.3,4251,"Animation,Comedy,Sci-Fi",24,tvSeries
+tt2011533,Isabel,2011,8.3,2719,"Biography,History",,tvSeries
+tt2311454,Üsküdar'a Giderken,2011,8.3,2086,Comedy,70,tvSeries
+tt2603446,Main Lakshmi Tere Angaan Ki,2011,8.3,1333,Drama,,tvSeries
+tt1843675,Ross Kemp: Extreme World,2011,8.3,621,Documentary,,tvSeries
+tt2123765,The Misadventures of Awkward Black Girl,2011,8.3,605,"Comedy,Short",10,tvSeries
+tt6098816,Chris Stuckmann Quick Movie Reviews,2011,8.3,585,Comedy,,tvSeries
+tt2108719,Derren Brown: The Experiments,2011,8.3,537,Documentary,,tvSeries
+tt1561755,Bob's Burgers,2011,8.2,100140,"Animation,Comedy",22,tvSeries
+tt1844923,Friday Night Dinner,2011,8.2,24973,Comedy,24,tvSeries
+tt1693592,Vera,2011,8.2,23631,"Crime,Drama,Mystery",90,tvSeries
+tt2051178,Fate/Zero,2011,8.2,16594,"Action,Adventure,Animation",24,tvSeries
+tt1663641,Face Off,2011,8.2,7605,"Game-Show,Reality-TV",44,tvSeries
+tt1889883,Khuda Aur Mohabbat,2011,8.2,4054,"Drama,Romance",40,tvSeries
+tt2078690,Brain Games,2011,8.2,3702,"Comedy,Documentary,Game-Show",60,tvSeries
+tt2131368,The Layover,2011,8.2,1960,Documentary,43,tvSeries
+tt6098952,Chris Stuckmann Movie Reviews,2011,8.2,1798,"Comedy,Talk-Show",30,tvSeries
+tt1717499,The Onion News Network,2011,8.2,886,"Comedy,News",22,tvSeries
+tt1772281,How the States Got Their Shapes,2011,8.2,762,"Adventure,Documentary,History",60,tvSeries
+tt2132829,Karatefylla,2011,8.2,758,"Comedy,Drama",23,tvSeries
+tt1973552,Murdoch Mysteries: The Curse of the Lost Pharaohs,2011,8.2,673,Mystery,,tvSeries
+tt1610527,Workaholics,2011,8.1,58405,Comedy,22,tvSeries
+tt1833285,Boss,2011,8.1,18781,"Crime,Drama",60,tvSeries
+tt1554369,The Booth at the End,2011,8.1,5745,"Drama,Mystery,Thriller",30,tvSeries
+tt1608383,Black Dynamite,2011,8.1,5224,"Action,Adventure,Animation",22,tvSeries
+tt1752076,The Almighty Johnsons,2011,8.1,5214,"Comedy,Drama,Fantasy",47,tvSeries
+tt1970923,Kenny Hotz's Triumph of the Will,2011,8.1,2180,"Comedy,Crime,Reality-TV",22,tvSeries
+tt2150751,Chihayafuru,2011,8.1,1803,"Animation,Comedy,Drama",,tvSeries
+tt1698292,The Red Band Society,2011,8.1,1702,"Comedy,Drama",45,tvSeries
+tt6298258,Masameer,2011,8.1,845,"Adventure,Animation,Comedy",,tvSeries
+tt2495476,The Princess' Man,2011,8.1,745,"Action,Drama,Romance",,tvSeries
+tt1781092,Flying Wild Alaska,2011,8.1,655,"Action,Adventure,Reality-TV",60,tvSeries
+tt2674484,24 Hours in A&E,2011,8.1,611,Documentary,60,tvSeries
+tt2473942,In Time with You,2011,8.1,598,"Drama,Romance",85,tvSeries
+tt1778108,The Hour,2011,8.0,12343,Drama,60,tvSeries
+tt1843678,Scott & Bailey,2011,8.0,12053,"Crime,Drama,Mystery",45,tvSeries
+tt1724587,Green Lantern: The Animated Series,2011,8.0,8078,"Action,Adventure,Animation",25,tvSeries
+tt1982229,City Hunter,2011,8.0,7241,"Action,Romance,Thriller",60,tvSeries
+tt1717455,Silk,2011,8.0,5974,Drama,,tvSeries
+tt1811179,Penn & Teller: Fool Us,2011,8.0,4439,"Comedy,Game-Show,Mystery",60,tvSeries
+tt1379690,Lights Out,2011,8.0,3441,"Crime,Drama,Sport",60,tvSeries
+tt1942147,Sirens,2011,8.0,2413,"Comedy,Drama",60,tvSeries
+tt1871037,Stolichani v poveche,2011,8.0,1860,"Comedy,Drama",60,tvSeries
+tt1974895,Slaps & Kisses,2011,8.0,865,Comedy,30,tvSeries
+tt2221405,Tree with Deep Roots,2011,8.0,723,Drama,70,tvSeries
+tt1844624,American Horror Story,2011,7.9,358456,"Drama,Horror,Sci-Fi",60,tvSeries
+tt1830617,Grimm,2011,7.9,138218,"Crime,Drama,Fantasy",45,tvSeries
+tt1582457,The Borgias,2011,7.9,55868,"Crime,Drama,History",50,tvSeries
+tt1870949,Overspel,2011,7.9,1728,"Action,Drama,Thriller",50,tvSeries
+tt1935066,49 Days,2011,7.9,1706,"Drama,Fantasy,Romance",60,tvSeries
+tt2559314,The Screen Junkies Show,2011,7.9,1677,Comedy,,tvSeries
+tt1999525,Dynamo: Magician Impossible,2011,7.9,1609,Documentary,45,tvSeries
+tt7029396,SMG4,2011,7.9,1517,"Action,Adventure,Animation",,tvSeries
+tt1941928,Fugitives,2011,7.9,1329,"Action,Crime,Drama",60,tvSeries
+tt2056910,Fallout: Nuka Break,2011,7.9,1009,"Action,Adventure,Sci-Fi",,tvSeries
+tt3052852,Warrior Baek Dong Soo,2011,7.9,828,"Action,History,Romance",65,tvSeries
+tt8689382,Hamro Team,2011,7.9,814,"Drama,Sport",,tvSeries
+tt2091018,Prophets of Science Fiction,2011,7.9,722,"Biography,Documentary,History",45,tvSeries
+tt2475848,Startling by Each Step,2011,7.9,715,"Drama,Fantasy,Romance",46,tvSeries
+tt2130507,Detentionaire,2011,7.9,675,"Action,Adventure,Animation",22,tvSeries
+tt1826940,New Girl,2011,7.8,259107,"Comedy,Romance",22,tvSeries
+tt1837642,Revenge,2011,7.8,128438,"Drama,Mystery,Thriller",44,tvSeries
+tt1703925,Wilfred,2011,7.8,45331,"Comedy,Drama,Mystery",22,tvSeries
+tt1587678,Happy Endings,2011,7.8,41249,"Comedy,Romance",22,tvSeries
+tt1582350,Episodes,2011,7.8,37514,Comedy,30,tvSeries
+tt1888075,Death in Paradise,2011,7.8,31775,"Crime,Drama,Mystery",60,tvSeries
+tt1780441,Portlandia,2011,7.8,24466,Comedy,22,tvSeries
+tt2058303,Fresh Meat,2011,7.8,20754,"Comedy,Drama",50,tvSeries
+tt1726839,The Looney Tunes Show,2011,7.8,17320,"Adventure,Animation,Comedy",23,tvSeries
+tt1871731,Ninjago: Masters of Spinjitzu,2011,7.8,10641,"Action,Adventure,Animation",30,tvSeries
+tt1666278,ThunderCats,2011,7.8,7979,"Action,Adventure,Animation",30,tvSeries
+tt1748888,Case Histories,2011,7.8,5385,"Crime,Drama,Mystery",60,tvSeries
+tt2086606,Spy,2011,7.8,4075,Comedy,30,tvSeries
+tt1704637,La Reina del Sur,2011,7.8,3808,"Action,Crime,Drama",378,tvSeries
+tt1874066,Paranormal Witness,2011,7.8,2887,"Documentary,Horror,Mystery",60,tvSeries
+tt2191991,Billy on the Street,2011,7.8,2692,"Comedy,Game-Show",30,tvSeries
+tt1968961,Társas játék,2011,7.8,1077,"Comedy,Drama,Romance",30,tvSeries
+tt2014554,Dark Matters: Twisted But True,2011,7.8,954,"Documentary,Horror,Sci-Fi",30,tvSeries
+tt2223298,Salvage Hunters,2011,7.8,721,Reality-TV,60,tvSeries
+tt1843230,Once Upon a Time,2011,7.7,245436,"Adventure,Fantasy,Romance",60,tvSeries
+tt1567432,Teen Wolf,2011,7.7,174653,"Action,Drama,Fantasy",41,tvSeries
+tt1832979,Hart of Dixie,2011,7.7,59134,"Comedy,Drama,Romance",60,tvSeries
+tt1758772,Switched at Birth,2011,7.7,26906,"Drama,Family,Romance",60,tvSeries
+tt2050064,Kuzey Güney,2011,7.7,12278,Drama,90,tvSeries
+tt1620950,The Chicago Code,2011,7.7,8691,"Action,Crime,Drama",44,tvSeries
+tt1736341,Borgia,2011,7.7,7636,"Biography,Drama,History",52,tvSeries
+tt1835129,Death Valley,2011,7.7,5843,"Comedy,Horror",22,tvSeries
+tt1807859,Wild Kratts,2011,7.7,2899,"Adventure,Animation,Comedy",26,tvSeries
+tt1861225,Twenty Twelve,2011,7.7,2495,Comedy,30,tvSeries
+tt1933073,My Cat from Hell,2011,7.7,1760,Reality-TV,60,tvSeries
+tt1675276,Dan Vs.,2011,7.7,1628,"Adventure,Animation,Comedy",22,tvSeries
+tt2304406,The Greatest Love,2011,7.7,1235,"Comedy,Drama,Romance",,tvSeries
+tt2091127,The Cafe,2011,7.7,1192,Comedy,,tvSeries
+tt2090883,Hubert ohne Staller,2011,7.7,1057,"Comedy,Crime,Drama",43,tvSeries
+tt3184724,Scent of a Woman,2011,7.7,696,"Drama,Romance",80,tvSeries
+tt1947866,Van God los,2011,7.7,568,Thriller,50,tvSeries
+tt1600199,Franklin & Bash,2011,7.6,15357,"Comedy,Crime,Drama",60,tvSeries
+tt2022190,The Walking Dead: Webisodes,2011,7.6,5653,"Drama,Horror,Sci-Fi",15,tvSeries
+tt2300165,Iss Pyaar Ko Kya Naam Doon,2011,7.6,4749,"Drama,Romance",22,tvSeries
+tt1996607,Dream High,2011,7.6,4204,"Comedy,Drama,Music",70,tvSeries
+tt1919418,Beaver Falls,2011,7.6,2405,"Comedy,Drama",,tvSeries
+tt6217954,White Status,2011,7.6,2281,"Drama,Romance,War",90,tvSeries
+tt1717343,Jon Benjamin Has a Van,2011,7.6,1860,Comedy,30,tvSeries
+tt1877010,Alaska: The Last Frontier,2011,7.6,1831,Reality-TV,42,tvSeries
+tt1907374,The World's Greatest First Love,2011,7.6,1815,"Animation,Comedy,Romance",23,tvSeries
+tt11460508,The Suspicions of Mr Whicher,2011,7.6,1473,"Crime,Drama,Mystery",95,tvSeries
+tt1652654,Monroe,2011,7.6,1200,Drama,,tvSeries
+tt1661526,Crematorium,2011,7.6,1184,Drama,,tvSeries
+tt1822469,Crownies,2011,7.6,1166,"Crime,Drama",60,tvSeries
+tt1820941,Hanasaku iroha,2011,7.6,917,"Animation,Comedy,Drama",24,tvSeries
+tt2095343,Nissene over skog og hei,2011,7.6,911,Comedy,15,tvSeries
+tt1802693,SLiDE,2011,7.6,856,"Comedy,Drama,Romance",60,tvSeries
+tt2301643,Halloween Wars,2011,7.6,819,"Family,Game-Show,Reality-TV",42,tvSeries
+tt2785038,Happy Go Lily,2011,7.6,780,"Animation,Comedy,Drama",25,tvSeries
+tt1564623,Curiosity,2011,7.6,750,Documentary,45,tvSeries
+tt2011723,Nothing Trivial,2011,7.6,669,"Comedy,Drama",,tvSeries
+tt1932308,The Amazing Race Australia,2011,7.6,603,"Game-Show,Reality-TV",,tvSeries
+tt2074027,Kamen Rider Fourze,2011,7.6,580,"Action,Adventure,Comedy",25,tvSeries
+tt1663676,Awkward.,2011,7.5,46631,"Action,Comedy,Drama",22,tvSeries
+tt1828327,Last Man Standing,2011,7.5,39746,Comedy,30,tvSeries
+tt1595680,Being Human,2011,7.5,27716,"Drama,Fantasy,Horror",44,tvSeries
+tt1641247,Life's Too Short,2011,7.5,17045,Comedy,30,tvSeries
+tt1509004,Enlightened,2011,7.5,11292,"Comedy,Drama",30,tvSeries
+tt1652218,Mad Dogs,2011,7.5,6108,"Comedy,Crime,Drama",60,tvSeries
+tt1797629,Endgame,2011,7.5,3886,"Crime,Drama",60,tvSeries
+tt1882240,Beelzebub,2011,7.5,2587,"Action,Animation,Comedy",,tvSeries
+tt2071322,Threesome,2011,7.5,1558,Comedy,30,tvSeries
+tt2387612,Persona4 the ANIMATION,2011,7.5,1202,"Action,Adventure,Animation",25,tvSeries
+tt2401798,The Vault,2011,7.5,909,"Drama,Mystery,Thriller",,tvSeries
+tt2078818,Anno 1790,2011,7.5,746,"Crime,Drama,History",60,tvSeries
+tt2729360,What If?,2011,7.5,674,Comedy,,tvSeries
+tt2069441,The Future Diary,2011,7.4,22653,"Action,Animation,Comedy",25,tvSeries
+tt1799631,Blue Exorcist,2011,7.4,16627,"Action,Animation,Drama",30,tvSeries
+tt1578887,Luck,2011,7.4,6471,"Drama,Sport",60,tvSeries
+tt1863526,Bar Rescue,2011,7.4,4285,Reality-TV,41,tvSeries
+tt1582454,Love Bites,2011,7.4,2543,"Comedy,Drama,Romance",60,tvSeries
+tt1728860,Eagleheart,2011,7.4,2256,"Action,Comedy",,tvSeries
+tt2061527,Tiger & Bunny,2011,7.4,1801,"Action,Adventure,Animation",25,tvSeries
+tt1866609,Mount Pleasant,2011,7.4,1231,Comedy,60,tvSeries
+tt2171037,Helt perfekt,2011,7.4,1166,Comedy,,tvSeries
+tt2017925,Penguindrum,2011,7.4,1066,"Animation,Comedy,Drama",,tvSeries
+tt1701982,Good Vibes,2011,7.4,1062,"Animation,Comedy",,tvSeries
+tt4926348,BadComedian,2011,7.4,960,Comedy,,tvSeries
+tt1939256,Ouran High School Host Club,2011,7.4,862,"Comedy,Romance",23,tvSeries
+tt2056091,Husbands,2011,7.4,850,Comedy,,tvSeries
+tt2119785,Knallerfrauen,2011,7.4,817,Comedy,22,tvSeries
+tt3996972,Ninjago,2011,7.4,691,"Action,Animation",20,tvSeries
+tt1730374,Aim High,2011,7.4,641,Thriller,30,tvSeries
+tt2084685,The Ropes,2011,7.4,592,Drama,,tvSeries
+tt1837654,The Secret Circle,2011,7.3,49773,"Drama,Fantasy,Horror",45,tvSeries
+tt1798274,The Lying Game,2011,7.3,19392,"Drama,Mystery,Thriller",44,tvSeries
+tt1842127,Mortal Kombat: Legacy,2011,7.3,10678,"Action,Adventure,Crime",10,tvSeries
+tt1586676,Fairly Legal,2011,7.3,9318,"Comedy,Drama",41,tvSeries
+tt1582453,Harry's Law,2011,7.3,7027,"Comedy,Crime,Drama",43,tvSeries
+tt1638319,House of Anubis,2011,7.3,5753,"Adventure,Drama,Family",15,tvSeries
+tt3644204,Medical Center,2011,7.3,5028,Comedy,,tvSeries
+tt1582456,Prime Suspect,2011,7.3,4398,"Crime,Drama,Thriller",60,tvSeries
+tt1783495,NTSF:SD:SUV,2011,7.3,3545,Comedy,11,tvSeries
+tt2006005,Trollied,2011,7.3,3008,Comedy,26,tvSeries
+tt1679482,Supernatural: The Animation,2011,7.3,2498,"Adventure,Animation,Drama",23,tvSeries
+tt1829891,Combat Hospital,2011,7.3,2434,"Drama,War",42,tvSeries
+tt2080922,Oscar's Oasis,2011,7.3,1075,"Adventure,Animation,Comedy",7,tvSeries
+tt2040020,Platane,2011,7.3,747,Comedy,33,tvSeries
+tt1741256,Suburgatory,2011,7.2,33689,Comedy,22,tvSeries
+tt1183865,Alphas,2011,7.2,30209,"Action,Drama,Sci-Fi",44,tvSeries
+tt1590961,Breakout Kings,2011,7.2,16843,"Crime,Drama,Thriller",43,tvSeries
+tt8188114,Capital,2011,7.2,8146,"Comedy,Drama",,tvSeries
+tt3559124,The Tom and Jerry Show,2011,7.2,4781,"Adventure,Animation,Comedy",22,tvSeries
+tt1565810,Den som dræber,2011,7.2,4301,"Action,Crime,Drama",90,tvSeries
+tt2089467,Talking Dead,2011,7.2,3744,Talk-Show,44,tvSeries
+tt1809194,Traffic Light,2011,7.2,2269,Comedy,30,tvSeries
+tt1830332,The Field of Blood,2011,7.2,1758,"Crime,Drama,Mystery",59,tvSeries
+tt1707374,Beyond Scared Straight,2011,7.2,1320,"Crime,Documentary,Reality-TV",43,tvSeries
+tt1811399,10 O'Clock Live,2011,7.2,707,"Comedy,News",,tvSeries
+tt1695583,Laid,2011,7.2,667,Comedy,30,tvSeries
+tt1844181,Tia & Tamera,2011,7.2,569,"Drama,Reality-TV,Romance",43,tvSeries
+tt1462059,Falling Skies,2011,7.1,95761,"Action,Adventure,Drama",42,tvSeries
+tt1826805,Pan Am,2011,7.1,22159,"Drama,History,Romance",,tvSeries
+tt1587669,Body of Proof,2011,7.1,21141,"Comedy,Crime,Drama",60,tvSeries
+tt1819022,Mrs. Brown's Boys,2011,7.1,10304,Comedy,25,tvSeries
+tt1630574,Breaking In,2011,7.1,7691,"Comedy,Crime",30,tvSeries
+tt1727434,My Babysitter's a Vampire,2011,7.1,5841,"Action,Comedy,Family",22,tvSeries
+tt1788634,The Boat,2011,7.1,5695,"Adventure,Drama,Fantasy",75,tvSeries
+tt1587694,Off the Map,2011,7.1,5418,"Action,Adventure,Drama",42,tvSeries
+tt1827882,Property Brothers,2011,7.1,3678,Reality-TV,43,tvSeries
+tt2623064,You've Fallen for Me,2011,7.1,2335,"Drama,Music,Romance",65,tvSeries
+tt1836237,Against the Wall,2011,7.1,2019,"Crime,Drama",60,tvSeries
+tt2373743,Lie to Me,2011,7.1,1612,"Comedy,Drama,Romance",,tvSeries
+tt2103538,Housos,2011,7.1,1111,Comedy,30,tvSeries
+tt1698158,Kidnap and Ransom,2011,7.1,863,"Crime,Drama,Thriller",47,tvSeries
+tt1781715,The Sparticle Mystery,2011,7.1,687,"Adventure,Family,Fantasy",28,tvSeries
+tt2212323,Guy Code,2011,7.1,584,Comedy,,tvSeries
+tt1848220,The Magnificent Century,2011,7.0,21182,"Biography,Drama,History",90,tvSeries
+tt1909447,Deadman Wonderland,2011,7.0,13337,"Action,Animation,Drama",24,tvSeries
+tt0499400,The Nine Lives of Chloe King,2011,7.0,10764,"Action,Adventure,Crime",,tvSeries
+tt1545214,Kung Fu Panda: Legends of Awesomeness,2011,7.0,8672,"Action,Adventure,Animation",22,tvSeries
+tt1657505,Necessary Roughness,2011,7.0,7957,"Comedy,Drama,Romance",60,tvSeries
+tt1820742,A Gifted Man,2011,7.0,7797,"Drama,Fantasy",45,tvSeries
+tt2122656,Guilty Crown,2011,7.0,6287,"Action,Animation,Crime",23,tvSeries
+tt1802968,Nightmare Next Door,2011,7.0,1171,"Crime,Documentary",60,tvSeries
+tt1730523,H+,2011,7.0,787,Sci-Fi,5,tvSeries
+tt2189266,Inazuma Eleven Go,2011,7.0,740,"Animation,Family,Sport",23,tvSeries
+tt2918872,BoBoiBoy,2011,7.0,669,"Action,Adventure,Animation",22,tvSeries
+tt1740717,Superbook,2011,7.0,549,"Adventure,Animation,Family",22,tvSeries
+tt1819654,Ringer,2011,6.9,21530,"Crime,Drama,Mystery",44,tvSeries
+tt2645500,Haganai: I Don't Have Many Friends,2011,6.9,3090,"Animation,Comedy,Drama",25,tvSeries
+tt1591468,Chaos,2011,6.9,2590,"Action,Adventure,Drama",60,tvSeries
+tt1780262,Is this a Zombie?,2011,6.9,2149,"Action,Animation,Comedy",25,tvSeries
+tt1804880,King,2011,6.9,1690,"Crime,Drama",,tvSeries
+tt1767256,Winners & Losers,2011,6.9,1247,"Comedy,Drama,Romance",60,tvSeries
+tt6966158,Larva,2011,6.9,1211,"Adventure,Animation,Comedy",2,tvSeries
+tt2375282,My Princess,2011,6.9,991,"Comedy,Drama,Romance",65,tvSeries
+tt2373543,Flower Boy Ramyun Shop,2011,6.9,885,"Comedy,Romance",45,tvSeries
+tt2953920,Protect the Boss,2011,6.9,783,"Comedy,Drama,Romance",65,tvSeries
+tt1532448,Lykke,2011,6.9,761,"Comedy,Drama",60,tvSeries
+tt2189874,Killer Kids,2011,6.9,694,"Biography,Crime,Documentary",,tvSeries
+tt2249231,5'er Beser,2011,6.9,526,Comedy,100,tvSeries
+tt1842530,Unforgettable,2011,6.8,21668,"Crime,Drama,Mystery",60,tvSeries
+tt1830622,Happily Divorced,2011,6.8,3498,"Comedy,Romance",30,tvSeries
+tt1771742,Restaurant: Impossible,2011,6.8,2323,Reality-TV,60,tvSeries
+tt4547008,Game Theory,2011,6.8,2222,"Comedy,Talk-Show",,tvSeries
+tt1744638,Case Sensitive,2011,6.8,1148,"Crime,Thriller",60,tvSeries
+tt1711422,White Van Man,2011,6.8,721,Comedy,30,tvSeries
+tt2099854,Call of the Wildman,2011,6.8,642,Reality-TV,30,tvSeries
+tt1819781,After Lately,2011,6.8,629,Comedy,,tvSeries
+tt1978319,Torchwood: Web of Lies,2011,6.8,510,"Animation,Drama",,tvSeries
+tt1845307,2 Broke Girls,2011,6.7,111811,Comedy,22,tvSeries
+tt1641349,Terra Nova,2011,6.7,88219,"Adventure,Drama,Mystery",46,tvSeries
+tt1583638,Mr. Sunshine,2011,6.7,7420,Comedy,293,tvSeries
+tt1830888,The Exes,2011,6.7,6184,Comedy,30,tvSeries
+tt1930123,Web Therapy,2011,6.7,5071,Comedy,30,tvSeries
+tt2012511,The Dead Files,2011,6.7,3402,"Fantasy,Horror,Reality-TV",60,tvSeries
+tt1909463,Freezing,2011,6.7,1986,"Action,Animation,Drama",24,tvSeries
+tt2008252,Mayo chiki!,2011,6.7,1554,"Animation,Comedy,Romance",25,tvSeries
+tt2074248,The Bleak Old Shop of Stuff,2011,6.7,792,"Comedy,History",,tvSeries
+tt1836417,The Protector,2011,6.7,655,"Crime,Drama",60,tvSeries
+tt1757812,Michael: Every Day,2011,6.7,545,Comedy,22,tvSeries
+tt1865572,Wild Boys,2011,6.7,531,"Adventure,Drama,Western",60,tvSeries
+tt2057611,Gabriel Iglesias Presents Stand-Up Revolution,2011,6.7,521,Comedy,30,tvSeries
+tt1765622,Kickin' It,2011,6.6,7511,"Action,Comedy,Drama",22,tvSeries
+tt1684910,Mad Love,2011,6.6,4434,"Comedy,Romance",30,tvSeries
+tt1816993,The Glee Project,2011,6.6,3068,"Game-Show,Reality-TV",44,tvSeries
+tt1828238,Man Up!,2011,6.6,2716,Comedy,22,tvSeries
+tt2104664,"The Heart, She Holler",2011,6.6,1471,"Comedy,Horror",11,tvSeries
+tt2091066,Seven Hours Difference,2011,6.6,964,"Crime,Drama",,tvSeries
+tt1669774,Voltron Force,2011,6.6,608,"Animation,Sci-Fi",30,tvSeries
+tt1672189,Camelot,2011,6.5,25266,"Drama,Fantasy",45,tvSeries
+tt1839337,The Voice,2011,6.5,13968,"Game-Show,Music,Reality-TV",60,tvSeries
+tt2022170,The Client List,2011,6.5,13188,"Crime,Drama",42,tvSeries
+tt1843323,Up All Night,2011,6.5,9689,Comedy,22,tvSeries
+tt1604113,Friends with Benefits,2011,6.5,3563,Comedy,21,tvSeries
+tt1929675,Infinite Stratos,2011,6.5,2394,"Action,Animation,Comedy",24,tvSeries
+tt1849622,Tanked,2011,6.5,2117,Reality-TV,43,tvSeries
+tt2139371,Transformers: Rescue Bots,2011,6.5,1321,"Action,Adventure,Animation",20,tvSeries
+tt3130096,Chickens,2011,6.5,1002,Comedy,,tvSeries
+tt1893520,C,2011,6.5,617,"Action,Animation,Fantasy",23,tvSeries
+tt2169177,Little Luis,2012,9.6,567,"Animation,Comedy",,tvSeries
+tt5961444,Upanishad Ganga,2012,9.5,1270,"Drama,History,Short",,tvSeries
+tt2910420,Drzavni Posao,2012,9.4,3852,Comedy,10,tvSeries
+tt4664182,Rocket Beans TV,2012,9.3,734,Talk-Show,,tvSeries
+tt3204810,On Cinema,2012,9.2,1877,"Comedy,Talk-Show",,tvSeries
+tt2063241,Farouk Omar,2012,9.1,10113,"Biography,Drama,History",45,tvSeries
+tt5804986,The Big Lez Show,2012,9.1,3188,"Action,Adventure,Animation",,tvSeries
+tt1865718,Gravity Falls,2012,8.9,166034,"Adventure,Animation,Comedy",23,tvSeries
+tt2828240,Zindagi Gulzar Hai,2012,8.9,4846,Romance,42,tvSeries
+tt2354667,Battlefield Friends,2012,8.9,669,"Animation,Comedy",,tvSeries
+tt2778780,The Most Popular Girls in School,2012,8.8,778,"Animation,Comedy",,tvSeries
+tt2303687,Line of Duty,2012,8.7,78171,"Crime,Drama,Mystery",60,tvSeries
+tt2404499,Kingdom,2012,8.7,5325,"Action,Animation,Drama",25,tvSeries
+tt2392261,The Lizzie Bennet Diaries,2012,8.7,3366,"Comedy,Drama",3,tvSeries
+tt1745739,Las Fierbinti,2012,8.7,3073,"Comedy,Drama",40,tvSeries
+tt4087032,Good Mythical Morning,2012,8.7,2481,"Comedy,Family,Talk-Show",,tvSeries
+tt2317838,In Treatment,2012,8.7,2431,Drama,,tvSeries
+tt2273058,The Parliament,2012,8.7,581,Comedy,30,tvSeries
+tt1870479,The Newsroom,2012,8.6,132649,Drama,60,tvSeries
+tt2701582,Endeavour,2012,8.6,36947,"Crime,Drama,Mystery",90,tvSeries
+tt1983079,Call the Midwife,2012,8.6,34472,"Drama,History",60,tvSeries
+tt2311418,Isler Güçler,2012,8.6,21871,Comedy,86,tvSeries
+tt2360717,Satyamev Jayate,2012,8.6,7767,"Documentary,Talk-Show",65,tvSeries
+tt2326517,Finding Your Roots,2012,8.6,1974,"Biography,Documentary,History",53,tvSeries
+tt2228547,The Aquabats! Super Show!,2012,8.6,837,"Action,Adventure,Animation",,tvSeries
+tt2359704,JoJo's Bizarre Adventure,2012,8.5,47854,"Action,Adventure,Animation",24,tvSeries
+tt2244495,The Eric Andre Show,2012,8.5,23515,"Comedy,Talk-Show",11,tvSeries
+tt2301351,RuPaul's Drag Race All Stars,2012,8.5,10948,"Game-Show,Reality-TV",60,tvSeries
+tt2398674,Aikatsu!,2012,8.5,2153,"Adventure,Animation,Comedy",25,tvSeries
+tt2445666,Studio C,2012,8.5,1455,"Comedy,Family",30,tvSeries
+tt2495452,Social Path,2012,8.5,749,"History,Mystery,Thriller",94,tvSeries
+tt2168980,A Bite of China,2012,8.5,615,Documentary,50,tvSeries
+tt1759761,Veep,2012,8.4,69889,Comedy,30,tvSeries
+tt2930610,The Kitchen,2012,8.4,6712,Comedy,25,tvSeries
+tt2187850,Pablo Escobar: El Patrón del Mal,2012,8.4,6692,"Biography,Crime,Drama",45,tvSeries
+tt2610260,Honest Trailers,2012,8.4,4802,Comedy,7,tvSeries
+tt2160915,"Montevideo, Bog te video!",2012,8.4,3561,"Adventure,Comedy,Drama",50,tvSeries
+tt2276587,Legal High,2012,8.4,2516,"Comedy,Drama",54,tvSeries
+tt2810310,Game Grumps,2012,8.4,2043,Comedy,,tvSeries
+tt2374117,TableTop,2012,8.4,1188,"Comedy,Game-Show",30,tvSeries
+tt2523506,Wild Things with Dominic Monaghan,2012,8.4,664,Documentary,60,tvSeries
+tt3203700,Culture in Decline,2012,8.4,625,Documentary,30,tvSeries
+tt3136332,Hellbenders,2012,8.4,530,"Animation,Comedy,Horror",,tvSeries
+tt1695360,The Legend of Korra,2012,8.3,147461,"Action,Adventure,Animation",23,tvSeries
+tt1836037,Longmire,2012,8.3,42897,"Action,Crime,Drama",60,tvSeries
+tt1981558,Key and Peele,2012,8.3,28393,Comedy,30,tvSeries
+tt2216156,Last Tango in Halifax,2012,8.3,9739,"Comedy,Drama,Romance",60,tvSeries
+tt2275071,Game of Silence,2012,8.3,6661,"Crime,Drama",90,tvSeries
+tt2303077,Brazil Avenue,2012,8.3,3006,"Comedy,Crime,Drama",45,tvSeries
+tt2155043,Shaun Micallef's Mad as Hell,2012,8.3,738,"Comedy,Talk-Show",30,tvSeries
+tt2587452,The Outs,2012,8.3,647,"Drama,Short",,tvSeries
+tt2928890,Sessão de Terapia,2012,8.3,509,Drama,25,tvSeries
+tt1988386,Miss Fisher's Murder Mysteries,2012,8.2,18826,"Crime,Drama,History",60,tvSeries
+tt2348803,Kuroko's Basketball,2012,8.2,14618,"Animation,Comedy,Sport",24,tvSeries
+tt2432604,Toast of London,2012,8.2,11650,"Comedy,Musical",30,tvSeries
+tt1812523,Tron: Uprising,2012,8.2,9765,"Action,Adventure,Animation",30,tvSeries
+tt2262456,The Hollow Crown,2012,8.2,7788,"Drama,History,War",150,tvSeries
+tt2345459,8 Out of 10 Cats Does Countdown,2012,8.2,7156,"Comedy,Game-Show",30,tvSeries
+tt2514438,High Maintenance,2012,8.2,5303,Comedy,30,tvSeries
+tt2222848,Puberty Blues,2012,8.2,2373,"Comedy,Drama",45,tvSeries
+tt1934564,Braunschlag,2012,8.2,1677,"Comedy,Drama",45,tvSeries
+tt3550682,Amrit Manthan,2012,8.2,1340,Drama,,tvSeries
+tt2267446,Space Brothers,2012,8.2,654,"Animation,Comedy,Sci-Fi",24,tvSeries
+tt2505368,Generell Behindert,2012,8.2,647,Comedy,,tvSeries
+tt2316082,Sex House,2012,8.2,500,"Comedy,Horror",,tvSeries
+tt2616280,Derek,2012,8.1,37218,"Comedy,Drama",23,tvSeries
+tt2379308,Psycho-Pass,2012,8.1,25021,"Action,Animation,Crime",25,tvSeries
+tt2183641,Ripper Street,2012,8.1,23799,"Crime,Drama,Mystery",59,tvSeries
+tt1973692,Rita,2012,8.1,10756,"Comedy,Drama",40,tvSeries
+tt2319283,Moone Boy,2012,8.1,7031,Comedy,23,tvSeries
+tt2320220,Kamisama Kiss,2012,8.1,6534,"Animation,Comedy,Fantasy",23,tvSeries
+tt2496120,Space Battleship Yamato 2199,2012,8.1,1376,"Action,Adventure,Animation",,tvSeries
+tt2257665,Munkaügyek,2012,8.1,913,Comedy,26,tvSeries
+tt3139942,Bridal Mask,2012,8.1,811,"Action,Drama,History",60,tvSeries
+tt3994168,Shehr-e-Zaat,2012,8.1,673,"Mystery,Romance",,tvSeries
+tt2615506,"Dawkins: Sex, Death and the Meaning of Life",2012,8.1,630,Documentary,47,tvSeries
+tt2261391,Chicago Fire,2012,8.0,70216,"Action,Drama",43,tvSeries
+tt2521668,The Returned,2012,8.0,22041,"Drama,Fantasy,Horror",55,tvSeries
+tt2314952,Comedians in Cars Getting Coffee,2012,8.0,14061,"Comedy,Family,Talk-Show",20,tvSeries
+tt1864017,Stella,2012,8.0,2259,"Comedy,Drama",60,tvSeries
+tt2510616,The Mind of a Chef,2012,8.0,1479,Documentary,23,tvSeries
+tt3385538,Initial D: Fifth Stage,2012,8.0,1232,"Action,Animation,Sport",30,tvSeries
+tt2256612,Crimi Clowns,2012,8.0,1164,"Comedy,Crime,Thriller",30,tvSeries
+tt2520856,Revolution Z,2012,8.0,1135,"Drama,Music,Romance",45,tvSeries
+tt2362459,Private Number,2012,8.0,716,"Crime,Drama,Mystery",45,tvSeries
+tt2146543,The Solitary Gourmet,2012,8.0,587,Drama,30,tvSeries
+tt2853248,Teen Wolf Revelations,2012,8.0,532,Talk-Show,,tvSeries
+tt2191671,Elementary,2012,7.9,124928,"Crime,Drama,Mystery",60,tvSeries
+tt1958961,Lilyhammer,2012,7.9,33964,"Comedy,Crime,Drama",45,tvSeries
+tt2758770,Star vs. the Forces of Evil,2012,7.9,21165,"Action,Adventure,Animation",22,tvSeries
+tt1877889,Teenage Mutant Ninja Turtles,2012,7.9,17283,"Action,Adventure,Animation",24,tvSeries
+tt2325846,DreamWorks Dragons,2012,7.9,15674,"Action,Adventure,Animation",22,tvSeries
+tt2275990,The Bletchley Circle,2012,7.9,15240,"Crime,Drama,History",,tvSeries
+tt2292621,Burning Love,2012,7.9,4507,"Comedy,Romance",23,tvSeries
+tt3143378,The Moon Embracing the Sun,2012,7.9,3994,"Drama,Fantasy,Romance",,tvSeries
+tt2373094,The Great Doctor,2012,7.9,3514,"Drama,Fantasy,History",60,tvSeries
+tt4504724,Markiplier,2012,7.9,1621,Comedy,,tvSeries
+tt2362760,A Gentleman's Dignity,2012,7.9,1594,"Comedy,Drama,Romance",65,tvSeries
+tt2259665,The Young Montalbano,2012,7.9,1530,"Crime,Mystery",120,tvSeries
+tt2390276,Highway Thru Hell,2012,7.9,1413,"Documentary,Reality-TV",46,tvSeries
+tt1843894,On Death Row,2012,7.9,1396,Documentary,49,tvSeries
+tt1783844,Clan,2012,7.9,1322,"Comedy,Crime,Drama",50,tvSeries
+tt2274800,Redfern Now,2012,7.9,707,Drama,60,tvSeries
+tt4303722,Caddicarus,2012,7.9,581,Comedy,,tvSeries
+tt1839683,Awake,2012,7.8,21879,"Drama,Fantasy,Mystery",43,tvSeries
+tt1936532,Major Crimes,2012,7.8,17138,"Action,Crime,Drama",43,tvSeries
+tt2180271,Äkta människor,2012,7.8,6976,"Drama,Sci-Fi,Thriller",60,tvSeries
+tt1771072,Common Law,2012,7.8,6526,"Comedy,Crime",43,tvSeries
+tt2425098,Magi: The Labyrinth of Magic,2012,7.8,5472,"Action,Adventure,Animation",25,tvSeries
+tt1955311,Bomb Girls,2012,7.8,4734,"Drama,War",60,tvSeries
+tt2546866,Uncle,2012,7.8,4611,Comedy,30,tvSeries
+tt2240991,A Touch of Cloth,2012,7.8,4416,"Action,Comedy,Crime",60,tvSeries
+tt2309320,From the New World,2012,7.8,4028,"Action,Adventure,Animation",25,tvSeries
+tt2782216,Reply 1997,2012,7.8,2728,"Comedy,Drama,Romance",50,tvSeries
+tt2543258,Subat,2012,7.8,1825,"Crime,Drama,Fantasy",95,tvSeries
+tt2185220,Queen In-hyun's Man,2012,7.8,1416,"Fantasy,Romance",45,tvSeries
+tt2362042,Kimmo,2012,7.8,1168,Comedy,25,tvSeries
+tt2207986,Scam City,2012,7.8,814,"Adventure,Documentary,Reality-TV",48,tvSeries
+tt2398172,Ghost,2012,7.8,713,"Mystery,Thriller",60,tvSeries
+tt2942950,Shut Up Flower Boy Band,2012,7.8,679,"Drama,Music,Romance",45,tvSeries
+tt2204345,North Woods Law,2012,7.8,527,"Crime,Reality-TV",60,tvSeries
+tt1837576,Scandal,2012,7.7,83174,"Drama,Thriller",43,tvSeries
+tt2281375,Nashville,2012,7.7,28829,"Drama,Music,Romance",43,tvSeries
+tt1825133,Smash,2012,7.7,18737,"Drama,Musical",44,tvSeries
+tt1943524,The Finder,2012,7.7,18317,"Comedy,Crime,Drama",44,tvSeries
+tt2164430,A Young Doctor's Notebook & Other Stories,2012,7.7,17110,"Comedy,Drama,History",23,tvSeries
+tt2391224,The Paradise,2012,7.7,13347,"Drama,History",60,tvSeries
+tt2340841,Hyouka,2012,7.7,7280,"Animation,Comedy,Drama",24,tvSeries
+tt2339608,Karadayi,2012,7.7,6413,"Action,Crime,Drama",120,tvSeries
+tt2174367,Comic Book Men,2012,7.7,5693,"Comedy,Reality-TV",22,tvSeries
+tt2644032,Barbie: Life in the Dreamhouse,2012,7.7,3610,"Animation,Comedy,Family",3,tvSeries
+tt2401162,Rooftop Prince,2012,7.7,3425,"Comedy,Fantasy,Romance",65,tvSeries
+tt2180883,Daily Lives of High School Boys,2012,7.7,3386,"Animation,Comedy,Drama",24,tvSeries
+tt2191148,Blue,2012,7.7,1267,Drama,30,tvSeries
+tt2129304,Hotel Impossible,2012,7.7,1184,Reality-TV,60,tvSeries
+tt2496468,The Greatest Event in Television History,2012,7.7,870,Comedy,11,tvSeries
+tt8737876,School 2013,2012,7.7,823,"Comedy,Drama",,tvSeries
+tt2388350,Unité 9,2012,7.7,625,Drama,60,tvSeries
+tt3784006,Suits Webisodes,2012,7.7,604,"Comedy,Drama",3,tvSeries
+tt2949316,Tornado Chasers,2012,7.7,593,Reality-TV,20,tvSeries
+tt1954347,Continuum,2012,7.6,65961,"Action,Sci-Fi,Thriller",45,tvSeries
+tt2170584,Video Game High School,2012,7.6,14183,"Action,Comedy,Romance",42,tvSeries
+tt1832045,Magic City,2012,7.6,13758,"Crime,Drama",60,tvSeries
+tt2006848,Bunheads,2012,7.6,9398,"Comedy,Drama,Family",44,tvSeries
+tt3066242,RWBY,2012,7.6,8065,"Action,Adventure,Animation",13,tvSeries
+tt2296348,The Pet Girl of Sakurasou,2012,7.6,5961,"Animation,Comedy,Drama",24,tvSeries
+tt2176287,Comedy Bang! Bang!,2012,7.6,4792,"Comedy,Talk-Show",30,tvSeries
+tt2593336,The Innocent Man,2012,7.6,2557,Drama,60,tvSeries
+tt2358629,Some Girls,2012,7.6,2036,Comedy,30,tvSeries
+tt2169245,MeatEater,2012,7.6,1738,Documentary,21,tvSeries
+tt1677734,30° i februari,2012,7.6,1700,Drama,60,tvSeries
+tt2346947,The King 2 Hearts,2012,7.6,1637,"Action,Drama,Romance",65,tvSeries
+tt2188249,Prisoners Wives,2012,7.6,1154,Drama,60,tvSeries
+tt5189600,Jacksepticeye,2012,7.6,1076,Comedy,,tvSeries
+tt2421012,Divorce,2012,7.6,1046,"Comedy,Drama,Romance",45,tvSeries
+tt2239964,Acayip Hikayeler,2012,7.6,1029,"Drama,Fantasy,Horror",40,tvSeries
+tt3013322,Porta dos Fundos,2012,7.6,898,"Comedy,Short",,tvSeries
+tt2297810,The Burn with Jeff Ross,2012,7.6,715,"Comedy,Talk-Show",30,tvSeries
+tt2193021,Arrow,2012,7.5,457655,"Action,Adventure,Crime",42,tvSeries
+tt2250192,Sword Art Online,2012,7.5,60050,"Action,Adventure,Animation",24,tvSeries
+tt2211129,The Mindy Project,2012,7.5,36200,Comedy,30,tvSeries
+tt1714204,Perception,2012,7.5,23803,"Crime,Drama,Mystery",42,tvSeries
+tt2300923,Go On,2012,7.5,20837,Comedy,22,tvSeries
+tt2230051,High School DxD,2012,7.5,16247,"Action,Animation,Comedy",23,tvSeries
+tt2006374,Copper,2012,7.5,11281,"Action,Drama",42,tvSeries
+tt2290339,Emily Owens M.D.,2012,7.5,6889,"Comedy,Drama,Romance",43,tvSeries
+tt2569488,Salamander,2012,7.5,2575,"Crime,Drama,Thriller",40,tvSeries
+tt1798701,Wedding Band,2012,7.5,2070,"Comedy,Drama,Music",60,tvSeries
+tt2286707,Love Rain,2012,7.5,1877,"Comedy,Drama,Romance",65,tvSeries
+tt2533174,Gadget Man,2012,7.5,910,Talk-Show,,tvSeries
+tt2349912,Doctor X,2012,7.5,879,"Comedy,Drama,Mystery",54,tvSeries
+tt13653972,Shameless Hall of Shame,2012,7.5,874,Comedy,,tvSeries
+tt2181219,Spin,2012,7.5,819,"Drama,Thriller",52,tvSeries
+tt3009770,Dybvaaaaad,2012,7.5,611,Comedy,25,tvSeries
+tt2208885,Kaboul Kitchen,2012,7.5,556,Comedy,26,tvSeries
+tt1723816,Girls,2012,7.4,81873,"Comedy,Drama",30,tvSeries
+tt1797404,House of Lies,2012,7.4,27351,"Comedy,Drama",30,tvSeries
+tt1954804,Saving Hope,2012,7.4,8429,"Drama,Fantasy",43,tvSeries
+tt2321542,"Love, Chunibyo & Other Delusions",2012,7.4,5971,"Animation,Comedy,Drama",25,tvSeries
+tt1865740,Ink Master,2012,7.4,5241,"Game-Show,Reality-TV",60,tvSeries
+tt2321596,Wolfblood,2012,7.4,4367,"Family,Fantasy",30,tvSeries
+tt2128016,Mr. D,2012,7.4,3140,Comedy,30,tvSeries
+tt2346169,Fast N' Loud,2012,7.4,2960,"Adventure,Comedy,Reality-TV",60,tvSeries
+tt2239949,Pramface,2012,7.4,2770,Comedy,30,tvSeries
+tt2294048,Blast of Tempest,2012,7.4,1775,"Action,Animation,Fantasy",25,tvSeries
+tt2259737,Jormungand,2012,7.4,1708,"Action,Animation,Crime",24,tvSeries
+tt2014553,Daniel Tiger's Neighborhood,2012,7.4,1676,"Animation,Family,Fantasy",26,tvSeries
+tt2963600,James & Mike Mondays,2012,7.4,1563,"Comedy,Talk-Show",,tvSeries
+tt2189801,Son,2012,7.4,1170,"Adventure,Drama,Mystery",82,tvSeries
+tt2404115,"Rich Man, Poor Woman",2012,7.4,1145,"Comedy,Drama,Romance",54,tvSeries
+tt3215124,I Miss You,2012,7.4,1053,"Action,Crime,Drama",65,tvSeries
+tt2428924,Roba,2012,7.4,756,"Action,Adventure,Comedy",41,tvSeries
+tt2365173,GTO: Great Teacher Onizuka,2012,7.4,733,"Comedy,Drama",50,tvSeries
+tt2298250,Where the Bears Are,2012,7.4,671,"Comedy,Mystery",138,tvSeries
+tt4234808,Did You Know Gaming?,2012,7.4,515,"Documentary,Short",,tvSeries
+tt2650536,Gordon Behind Bars,2012,7.4,511,Documentary,,tvSeries
+tt2575934,Kayip Sehir,2012,7.4,504,Drama,90,tvSeries
+tt1821681,Touch,2012,7.3,43860,"Drama,Mystery,Sci-Fi",43,tvSeries
+tt1819509,Don't Trust the B---- in Apartment 23,2012,7.3,42094,Comedy,22,tvSeries
+tt2177489,Baby Daddy,2012,7.3,22498,"Comedy,Drama,Family",22,tvSeries
+tt2172103,Last Resort,2012,7.3,22494,"Action,Drama,Mystery",60,tvSeries
+tt2022713,Brickleberry,2012,7.3,18909,"Animation,Comedy",22,tvSeries
+tt2337840,Bad Education,2012,7.3,14782,Comedy,30,tvSeries
+tt1743904,Jane by Design,2012,7.3,10748,"Comedy,Drama",44,tvSeries
+tt2262383,Vegas,2012,7.3,7707,"Action,Crime,Drama",,tvSeries
+tt1794147,The L.A. Complex,2012,7.3,2978,Drama,60,tvSeries
+tt2548200,Slugterra,2012,7.3,2896,"Action,Adventure,Animation",22,tvSeries
+tt2122954,Unsupervised,2012,7.3,2766,"Animation,Comedy",22,tvSeries
+tt2497834,Axe Cop,2012,7.3,2366,"Action,Adventure,Animation",15,tvSeries
+tt2299141,The Syndicate,2012,7.3,2037,"Drama,Mystery",60,tvSeries
+tt1879599,Million Dollar Listing New York,2012,7.3,1924,Reality-TV,44,tvSeries
+tt2202488,Mountain Men,2012,7.3,1886,"Reality-TV,Western",42,tvSeries
+tt2375858,Hunderby,2012,7.3,1347,Comedy,30,tvSeries
+tt2368518,Hunting Season,2012,7.3,1208,Comedy,,tvSeries
+tt2014681,Holliston,2012,7.3,1025,"Comedy,Horror,Romance",22,tvSeries
+tt2216600,Tale of A-rang,2012,7.3,1005,"Action,Comedy,Fantasy",,tvSeries
+tt3303944,The Familiar of Zero F,2012,7.3,786,"Animation,Comedy,Drama",24,tvSeries
+tt2150202,Brille,2012,7.3,570,"Comedy,Game-Show",,tvSeries
+tt2392143,Motorcity,2012,7.3,567,"Action,Adventure,Animation",22,tvSeries
+tt1722512,Ultimate Spider-Man,2012,7.2,15907,"Action,Adventure,Animation",23,tvSeries
+tt2222352,Cuckoo,2012,7.2,11103,Comedy,30,tvSeries
+tt1723760,Dallas,2012,7.2,11074,"Drama,Romance",42,tvSeries
+tt2184065,Almost Famous,2012,7.2,8026,Comedy,120,tvSeries
+tt2309312,"Say ""I love you""",2012,7.2,4757,"Animation,Drama,Romance",25,tvSeries
+tt2191746,To the Beautiful You,2012,7.2,2366,"Comedy,Drama,Romance",64,tvSeries
+tt2357939,Hollywood Heights,2012,7.2,2040,Drama,60,tvSeries
+tt1879713,Betty White's Off Their Rockers,2012,7.2,1330,"Comedy,Reality-TV",30,tvSeries
+tt2263720,Hebburn,2012,7.2,937,Comedy,30,tvSeries
+tt2378020,Yukon Men,2012,7.2,937,"Adventure,Reality-TV",60,tvSeries
+tt9646834,RuPaul's Drag Race All Stars: Untucked!,2012,7.2,783,Reality-TV,20,tvSeries
+tt2498968,Catfish: The TV Show,2012,7.1,9599,"Reality-TV,Romance",60,tvSeries
+tt1727387,GCB,2012,7.1,9018,"Comedy,Drama",,tvSeries
+tt1942919,Men at Work,2012,7.1,8688,"Comedy,Drama,Romance",30,tvSeries
+tt2242025,Hotel Hell,2012,7.1,5443,Reality-TV,60,tvSeries
+tt3330720,The Last Leg,2012,7.1,1756,"Comedy,News,Talk-Show",45,tvSeries
+tt2341219,Mysterious Girlfriend X,2012,7.1,1355,"Animation,Comedy,Mystery",30,tvSeries
+tt2301807,Naruto SD: Rock Lee & His Ninja Pals,2012,7.1,1169,"Action,Animation,Comedy",24,tvSeries
+tt2255443,The Undateables,2012,7.1,968,"Documentary,Reality-TV,Romance",60,tvSeries
+tt2272112,Property Brothers - Buying + Selling,2012,7.1,926,Reality-TV,43,tvSeries
+tt2106857,Dating Rules from My Future Self,2012,7.1,868,Comedy,,tvSeries
+tt2208231,Danish Dynamite,2012,7.1,678,Comedy,25,tvSeries
+tt2290981,Breaking Pointe,2012,7.1,661,Reality-TV,60,tvSeries
+tt2124494,The Witches of Calenda,2012,7.1,645,"Action,Adventure,Fantasy",,tvSeries
+tt2193041,Beauty and the Beast,2012,7.0,38973,"Drama,Horror,Mystery",60,tvSeries
+tt2455546,Avengers Assemble,2012,7.0,9093,"Action,Adventure,Animation",23,tvSeries
+tt1949012,The Firm,2012,7.0,6394,"Action,Crime,Drama",60,tvSeries
+tt2338096,Counting Cars,2012,7.0,3136,"Documentary,Reality-TV",30,tvSeries
+tt2377452,K,2012,7.0,2939,"Action,Animation,Drama",24,tvSeries
+tt2272367,Loiter Squad,2012,7.0,2770,Comedy,11,tvSeries
+tt2076610,Project Runway All Stars,2012,7.0,1975,Reality-TV,60,tvSeries
+tt2196757,Inu x Boku SS,2012,7.0,1937,"Animation,Comedy,Romance",24,tvSeries
+tt2341806,To Love-Ru - Darkness,2012,7.0,1300,"Animation,Comedy,Drama",25,tvSeries
+tt2340720,Me and Mrs Jones,2012,7.0,968,Comedy,30,tvSeries
+tt2141011,Gator Boys,2012,7.0,696,Reality-TV,60,tvSeries
+tt2320524,Amores verdaderos,2012,7.0,600,"Drama,Romance",60,tvSeries
+tt2250040,Good Luck Girl!,2012,7.0,562,"Animation,Comedy,Fantasy",23,tvSeries
+tt2432822,Flea Market Flip,2012,7.0,527,Reality-TV,30,tvSeries
+tt1728102,Alcatraz,2012,6.9,40879,"Action,Crime,Drama",60,tvSeries
+tt2087571,The New Normal,2012,6.9,11707,"Comedy,Romance",30,tvSeries
+tt1828246,Missing,2012,6.9,9733,"Action,Drama,Thriller",60,tvSeries
+tt2182229,The Neighbors,2012,6.9,9120,"Comedy,Family,Romance",30,tvSeries
+tt2136138,Sofia the First,2012,6.9,4696,"Adventure,Animation,Comedy",22,tvSeries
+tt2558816,Eastsiders,2012,6.9,3263,Drama,115,tvSeries
+tt2361816,Seksenler,2012,6.9,3062,Comedy,100,tvSeries
+tt2339875,Accel World,2012,6.9,2561,"Action,Animation,Romance",24,tvSeries
+tt1799834,Fugget About It,2012,6.9,1833,"Animation,Comedy,Crime",22,tvSeries
+tt1974470,Arctic Air,2012,6.9,1501,Drama,60,tvSeries
+tt2382978,Sjit Happens,2012,6.9,1057,"Comedy,Romance",23,tvSeries
+tt1933549,Budva na pjenu od mora,2012,6.9,989,Drama,,tvSeries
+tt2273316,Joko gegen Klaas - Das Duell um die Welt,2012,6.9,898,"Comedy,Game-Show,Reality-TV",148,tvSeries
+tt2196825,Alien Surf Girls,2012,6.9,855,"Family,Sci-Fi",,tvSeries
+tt2108249,The Ending Planner,2012,6.9,771,"Drama,Mystery",54,tvSeries
+tt2458684,The Haunting Of,2012,6.9,717,Biography,60,tvSeries
+tt2197797,666 Park Avenue,2012,6.8,18689,"Drama,Fantasy,Horror",,tvSeries
+tt1836195,The River,2012,6.8,17343,"Action,Adventure,Drama",44,tvSeries
+tt2269368,Aesthetica of a Rogue Hero,2012,6.8,2384,"Action,Animation,Fantasy",23,tvSeries
+tt2733534,Total Drama Revenge of the Island,2012,6.8,2344,"Action,Animation,Comedy",,tvSeries
+tt2192477,Naji Attallah's Squad,2012,6.8,2137,"Adventure,Comedy,Crime",,tvSeries
+tt1935298,Underemployed,2012,6.8,1754,Drama,40,tvSeries
+tt11554102,The Critical Drinker,2012,6.8,1454,"Comedy,Talk-Show",,tvSeries
+tt3845452,Impractical Jokers,2012,6.8,778,Comedy,,tvSeries
+tt2215338,Carrossel,2012,6.8,593,"Adventure,Comedy,Drama",30,tvSeries
+tt1991564,Lab Rats,2012,6.7,8257,"Action,Comedy,Drama",22,tvSeries
+tt2152112,My 600-lb Life,2012,6.7,2418,Reality-TV,85,tvSeries
+tt2341339,Randy Cunningham: 9th Grade Ninja,2012,6.7,2020,"Action,Adventure,Animation",15,tvSeries
+tt2182427,Bering Sea Gold,2012,6.7,1905,Reality-TV,43,tvSeries
+tt2250160,Campione!,2012,6.7,1604,"Action,Adventure,Animation",24,tvSeries
+tt2203143,Mia and Me,2012,6.7,1243,"Adventure,Animation,Family",20,tvSeries
+tt2198333,America's Book of Secrets,2012,6.7,1026,Documentary,44,tvSeries
+tt2402807,House Husbands,2012,6.7,991,Drama,45,tvSeries
+tt2169273,MyMusic,2012,6.7,842,"Comedy,Drama,Music",,tvSeries
+tt2070791,Revolution,2012,6.6,87585,"Action,Adventure,Drama",43,tvSeries
+tt1986770,Anger Management,2012,6.6,32805,"Comedy,Romance",22,tvSeries
+tt2293002,Ben 10: Omniverse,2012,6.6,9689,"Action,Adventure,Animation",22,tvSeries
+tt2177491,Ben and Kate,2012,6.6,5373,Comedy,22,tvSeries
+tt3498954,Everything Wrong with...,2012,6.6,2998,Comedy,25,tvSeries
+tt2406986,Grojband,2012,6.6,1619,"Adventure,Animation,Comedy",22,tvSeries
+tt2294070,Code: Breaker,2012,6.6,1306,"Adventure,Animation,Crime",,tvSeries
+tt2209649,Tattoo Nightmares,2012,6.6,750,Reality-TV,60,tvSeries
+tt2299640,Bering Sea Gold: Under the Ice,2012,6.6,696,"Adventure,Documentary,Reality-TV",60,tvSeries
+tt1837855,Eternal Law,2012,6.6,666,"Drama,Fantasy",,tvSeries
+tt2524056,Portkod 1321,2012,6.6,585,Drama,15,tvSeries
+tt2295953,Primeval: New World,2012,6.5,5065,"Action,Adventure,Drama",42,tvSeries
+tt2215717,The Mob Doctor,2012,6.5,4547,"Crime,Drama,Mystery",60,tvSeries
+tt1710295,Doc McStuffins: Pet Rescue/Baby/Ultimate Safari/Arctic Rescue/Toy Hospital,2012,6.5,3451,"Animation,Family,Fantasy",11,tvSeries
+tt1743880,Napoleon Dynamite,2012,6.5,3368,"Animation,Comedy",30,tvSeries
+tt1825122,NYC 22,2012,6.5,1608,"Crime,Drama",60,tvSeries
+tt1845887,Best Friends Forever,2012,6.5,1488,Comedy,,tvSeries
+tt2191567,Wicked Tuna,2012,6.5,1165,Reality-TV,60,tvSeries
+tt10589896,MrBeast,2012,6.5,881,"Action,Adventure,Comedy",,tvSeries
+tt3498252,Inferno Cop,2012,6.5,687,"Action,Animation,Comedy",,tvSeries
+tt1978200,Moordvrouw,2012,6.5,582,"Action,Crime,Drama",43,tvSeries

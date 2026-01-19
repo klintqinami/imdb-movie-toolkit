@@ -1,0 +1,73 @@
+# Command: python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2015 --end-year 2020 --min-votes 50000 --min-rating 7.0 --sort-by votes --limit-per-year 10 --output samples/sample_limit_sort.txt
+
+2015
+  Mad Max: Fury Road (rating=8.1, votes=1186553, genres=Action,Adventure,Sci-Fi, id=tt1392190)
+  Star Wars: Episode VII - The Force Awakens (rating=7.7, votes=1012348, genres=Action,Adventure,Sci-Fi, id=tt2488496)
+  The Martian (rating=8.0, votes=985638, genres=Adventure,Drama,Sci-Fi, id=tt3659388)
+  Avengers: Age of Ultron (rating=7.3, votes=979723, genres=Action,Adventure,Sci-Fi, id=tt2395427)
+  The Revenant (rating=8.0, votes=927240, genres=Adventure,Drama,Western, id=tt1663202)
+  Inside Out (rating=8.1, votes=889949, genres=Adventure,Animation,Comedy, id=tt2096673)
+  Ant-Man (rating=7.2, votes=766264, genres=Action,Comedy,Sci-Fi, id=tt0478970)
+  The Hateful Eight (rating=7.8, votes=706788, genres=Crime,Drama,Mystery, id=tt3460252)
+  Spotlight (rating=8.1, votes=526972, genres=Biography,Crime,Drama, id=tt1895587)
+  The Big Short (rating=7.8, votes=524798, genres=Biography,Comedy,Drama, id=tt1596363)
+
+2016
+  Deadpool (rating=8.0, votes=1230270, genres=Action,Comedy,Sci-Fi, id=tt1431045)
+  Captain America: Civil War (rating=7.8, votes=907878, genres=Action,Sci-Fi, id=tt3498820)
+  Doctor Strange (rating=7.5, votes=862704, genres=Action,Adventure,Fantasy, id=tt1211837)
+  Arrival (rating=7.9, votes=839201, genres=Drama,Mystery,Sci-Fi, id=tt2543164)
+  Rogue One: A Star Wars Story (rating=7.8, votes=740253, genres=Action,Adventure,Sci-Fi, id=tt3748528)
+  La La Land (rating=8.0, votes=738486, genres=Comedy,Drama,Music, id=tt3783958)
+  Hacksaw Ridge (rating=8.1, votes=658149, genres=Biography,Drama,History, id=tt2119532)
+  Split (rating=7.3, votes=606882, genres=Horror,Thriller, id=tt4972582)
+  Zootopia (rating=8.0, votes=596092, genres=Action,Adventure,Animation, id=tt2948356)
+  Fantastic Beasts and Where to Find Them (rating=7.2, votes=532548, genres=Adventure,Family,Fantasy, id=tt3183660)
+
+2017
+  Logan (rating=8.1, votes=907854, genres=Action,Drama,Sci-Fi, id=tt3315342)
+  Thor: Ragnarok (rating=7.9, votes=875088, genres=Action,Adventure,Comedy, id=tt3501632)
+  Guardians of the Galaxy Vol. 2 (rating=7.6, votes=811740, genres=Action,Adventure,Comedy, id=tt3896198)
+  Dunkirk (rating=7.8, votes=789385, genres=Action,Drama,History, id=tt5013056)
+  Get Out (rating=7.8, votes=787656, genres=Horror,Mystery,Thriller, id=tt5052448)
+  Spider-Man: Homecoming (rating=7.4, votes=776800, genres=Action,Adventure,Sci-Fi, id=tt2250912)
+  Blade Runner 2049 (rating=8.0, votes=732474, genres=Action,Drama,Mystery, id=tt1856101)
+  Wonder Woman (rating=7.3, votes=728191, genres=Action,Adventure,Fantasy, id=tt0451279)
+  Coco (rating=8.4, votes=675951, genres=Adventure,Animation,Drama, id=tt2380307)
+  Baby Driver (rating=7.5, votes=667167, genres=Action,Crime,Drama, id=tt3890160)
+
+2018
+  Avengers: Infinity War (rating=8.4, votes=1328438, genres=Action,Adventure,Sci-Fi, id=tt4154756)
+  Black Panther (rating=7.3, votes=893045, genres=Action,Adventure,Sci-Fi, id=tt1825683)
+  Spider-Man: Into the Spider-Verse (rating=8.4, votes=757813, genres=Action,Adventure,Animation, id=tt4633694)
+  Deadpool 2 (rating=7.6, votes=728919, genres=Action,Adventure,Comedy, id=tt5463162)
+  Green Book (rating=8.2, votes=659956, genres=Biography,Comedy,Drama, id=tt6966692)
+  A Quiet Place (rating=7.5, votes=643408, genres=Drama,Horror,Sci-Fi, id=tt6644200)
+  Bohemian Rhapsody (rating=7.9, votes=632908, genres=Biography,Drama,Music, id=tt1727824)
+  Ready Player One (rating=7.4, votes=529218, genres=Action,Adventure,Sci-Fi, id=tt1677720)
+  Ant-Man and the Wasp (rating=7.0, votes=484023, genres=Action,Adventure,Comedy, id=tt5095030)
+  A Star Is Born (rating=7.6, votes=441884, genres=Drama,Music,Romance, id=tt1517451)
+
+2019
+  Joker (rating=8.3, votes=1650870, genres=Crime,Drama,Thriller, id=tt7286456)
+  Avengers: Endgame (rating=8.4, votes=1398430, genres=Action,Adventure,Sci-Fi, id=tt4154796)
+  Parasite (rating=8.5, votes=1111929, genres=Drama,Thriller, id=tt6751668)
+  Once Upon a Time... in Hollywood (rating=7.6, votes=935461, genres=Comedy,Drama, id=tt7131622)
+  Knives Out (rating=7.9, votes=836223, genres=Comedy,Crime,Drama, id=tt8946378)
+  1917 (rating=8.2, votes=748500, genres=Action,Drama,War, id=tt8579674)
+  Spider-Man: Far from Home (rating=7.3, votes=617359, genres=Action,Adventure,Comedy, id=tt6320628)
+  Ford v Ferrari (rating=8.1, votes=547644, genres=Action,Biography,Drama, id=tt1950186)
+  Jojo Rabbit (rating=7.9, votes=477475, genres=Comedy,Drama,War, id=tt2584384)
+  John Wick: Chapter 3 - Parabellum (rating=7.4, votes=468144, genres=Action,Crime,Drama, id=tt6146586)
+
+2020
+  Tenet (rating=7.3, votes=647340, genres=Action,Sci-Fi,Thriller, id=tt6723592)
+  Soul (rating=8.0, votes=418971, genres=Adventure,Animation,Comedy, id=tt2948372)
+  A Quiet Place Part II (rating=7.2, votes=313266, genres=Drama,Horror,Sci-Fi, id=tt8332922)
+  The Invisible Man (rating=7.1, votes=277886, genres=Drama,Horror,Mystery, id=tt1051906)
+  Promising Young Woman (rating=7.5, votes=231270, genres=Crime,Drama,Mystery, id=tt9620292)
+  The Father (rating=8.2, votes=221158, genres=Drama,Mystery, id=tt10272386)
+  Another Round (rating=7.7, votes=219383, genres=Comedy,Drama, id=tt10288566)
+  Palm Springs (rating=7.4, votes=206772, genres=Comedy,Fantasy,Mystery, id=tt9484998)
+  The Trial of the Chicago 7 (rating=7.7, votes=202602, genres=Drama,History,Thriller, id=tt1070874)
+  Nomadland (rating=7.3, votes=196755, genres=Drama, id=tt9770150)
