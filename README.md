@@ -5,7 +5,9 @@ the `title.basics` and `title.ratings` datasets, filters by title type, year ran
 runtime, and genres, then groups results by year. Use it to generate shareable watchlists by
 with customizable filters.
 
-![HTML sample](samples/html_sample.png)
+<p align="center">
+  <img src="samples/html_sample.png" alt="HTML sample" width="520" />
+</p>
 
 ## Files
 - `imdb_movie_toolkit.py` - main script
