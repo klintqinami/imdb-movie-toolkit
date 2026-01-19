@@ -1,8 +1,11 @@
 # IMDb Movie Toolkit
 
-This repo contains a script to aggregate IMDb movies into a readable text report. It merges the
-`title.basics` and `title.ratings` datasets, filters to movies only, lets you pick a year range,
-apply vote/rating thresholds, and optionally filter by genre, then groups results by year.
+This repo contains a script to aggregate IMDb titles into text, CSV, JSON, or HTML outputs. It merges
+the `title.basics` and `title.ratings` datasets, filters by title type, year range, votes, ratings,
+runtime, and genres, then groups results by year. Use it to generate shareable watchlists by
+with customizable filters.
+
+![HTML sample](samples/html_sample.png)
 
 ## Files
 - `imdb_movie_toolkit.py` - main script
