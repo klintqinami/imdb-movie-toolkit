@@ -37,6 +37,7 @@ Sample output:
   Sinners (rating=7.6, votes=305643, genres=Action,Drama,Horror, id=tt31193180)
   Weapons (rating=7.5, votes=225931, genres=Horror,Mystery, id=tt26581740)
   Mission: Impossible - The Final Reckoning (rating=7.2, votes=180984, genres=Action,Adventure,Thriller, id=tt9603208)
+  ...
 ```
 
 The example output is included in `samples/movies_by_year.txt`.
@@ -61,6 +62,7 @@ Sample output:
   Weapons (rating=7.5, votes=225931, genres=Horror,Mystery, id=tt26581740)
   The Gorge (rating=6.7, votes=150246, genres=Action,Adventure,Horror, id=tt13654226)
   28 Years Later (rating=6.6, votes=156806, genres=Horror,Sci-Fi,Thriller, id=tt10548174)
+  ...
 ```
 
 ## Help
