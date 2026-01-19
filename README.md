@@ -2,7 +2,7 @@
 
 This repo contains a script to aggregate IMDb titles into text, CSV, JSON, or HTML outputs. It merges
 the `title.basics` and `title.ratings` datasets, filters by title type, year range, votes, ratings,
-runtime, and genres, then groups results by year. Use it to generate shareable watchlists by
+runtime, and genres, then groups results by year. Use it to generate shareable watchlists
 with customizable filters.
 
 <p align="center">
