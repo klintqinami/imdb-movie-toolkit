@@ -66,7 +66,7 @@ The example output is included in `samples/movies_by_year.txt`.
 ## Sample outputs
 | Sample | Command |
 | --- | --- |
-| [`samples/output.html`](samples/output.html) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2000 --end-year 2025 --min-votes 150000 --min-rating 6.5 --format html --output samples/output.html` |
+| [`samples/output.html`](samples/output.html) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2020 --end-year 2020 --min-votes 150000 --min-rating 6.5 --format html --output samples/output.html` |
 | [`samples/movies_by_year.txt`](samples/movies_by_year.txt) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2000 --end-year 2025 --min-votes 150000 --min-rating 6.5 --output samples/movies_by_year.txt` |
 | [`samples/sample_limit_sort.txt`](samples/sample_limit_sort.txt) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2015 --end-year 2020 --min-votes 50000 --min-rating 7.0 --sort-by votes --limit-per-year 10 --output samples/sample_limit_sort.txt` |
 | [`samples/sample_tvseries.csv`](samples/sample_tvseries.csv) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2010 --end-year 2012 --title-type tvSeries --format csv --output samples/sample_tvseries.csv` |
