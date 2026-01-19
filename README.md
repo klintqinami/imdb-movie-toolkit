@@ -42,29 +42,6 @@ Sample output:
 
 The example output is included in `samples/movies_by_year.txt`.
 
-## Example usage with genre
-```sh
-python3 imdb_movie_toolkit.py \
-  --basics-path /path/to/title.basics.tsv.gz \
-  --ratings-path /path/to/title.ratings.tsv.gz \
-  --start-year 2025 \
-  --end-year 2025 \
-  --min-votes 150000 \
-  --min-rating 6.5 \
-  --genre Horror \
-  --output horror_2025.txt
-```
-
-Sample output:
-```
-2025
-  Sinners (rating=7.6, votes=305643, genres=Action,Drama,Horror, id=tt31193180)
-  Weapons (rating=7.5, votes=225931, genres=Horror,Mystery, id=tt26581740)
-  The Gorge (rating=6.7, votes=150246, genres=Action,Adventure,Horror, id=tt13654226)
-  28 Years Later (rating=6.6, votes=156806, genres=Horror,Sci-Fi,Thriller, id=tt10548174)
-  ...
-```
-
 ## Help
 ```
 --basics-path PATH       Path to title.basics.tsv or .tsv.gz (required)
@@ -82,13 +59,14 @@ Sample output:
 --title-type TYPE        IMDb titleType to include (default movie)
 --sort-by MODE           rating | votes | title (default rating)
 --limit-per-year N       Max rows per year (default no limit)
---format FORMAT          text | csv | json (default text)
+--format FORMAT          text | csv | json | html (default text)
 --output PATH            Output file (default movies_by_year.txt)
 ```
 
 ## Sample outputs
 | Sample | Command |
 | --- | --- |
+| [`samples/output.html`](samples/output.html) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2000 --end-year 2025 --min-votes 150000 --min-rating 6.5 --format html --output samples/output.html` |
 | [`samples/movies_by_year.txt`](samples/movies_by_year.txt) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2000 --end-year 2025 --min-votes 150000 --min-rating 6.5 --output samples/movies_by_year.txt` |
 | [`samples/sample_limit_sort.txt`](samples/sample_limit_sort.txt) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2015 --end-year 2020 --min-votes 50000 --min-rating 7.0 --sort-by votes --limit-per-year 10 --output samples/sample_limit_sort.txt` |
 | [`samples/sample_tvseries.csv`](samples/sample_tvseries.csv) | `python imdb_movie_toolkit.py --basics-path /path/to/title.basics.tsv.gz --ratings-path /path/to/title.ratings.tsv.gz --start-year 2010 --end-year 2012 --title-type tvSeries --format csv --output samples/sample_tvseries.csv` |

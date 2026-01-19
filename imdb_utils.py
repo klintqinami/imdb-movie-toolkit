@@ -46,7 +46,7 @@ def add_sort_format_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--format",
         default="text",
-        choices=["text", "csv", "json"],
+        choices=["text", "csv", "json", "html"],
         help="Output format (default text)",
     )
     parser.add_argument(
